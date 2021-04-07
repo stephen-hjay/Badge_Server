@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d7dd60cd-55f0-4d5a-8fc2-c9b5775933aa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/badge/server/GlobalParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/badge/server/GlobalParameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/badge/server/ServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/badge/server/ServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/badge/server/android/DAO/BadgeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/badge/server/android/DAO/BadgeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/badge/server/android/Entity/rawdata/Badge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/badge/server/android/Entity/rawdata/Badge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/badge/server/android/Service/AndroidDeviceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/badge/server/android/Service/AndroidDeviceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/badge/server/android/Service/Impl/AndroidDataServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/badge/server/android/Service/Impl/AndroidDataServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/badge/server/android/Utils/AES.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/badge/server/android/Utils/AES.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/badge/server/android/Web/DeviceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/badge/server/android/Web/DeviceController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test_badge@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test_badge@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test_badge@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test_badge: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test_badge@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test_badge: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="badge: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/Documents/repository" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1qmfUyFGl92Cc01NRddyjE2Di8G" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/badge/server/android" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/badge/server/android/Entity" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/badge/server/android/DAO" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.badge.server" />
+      <recent name="com.badge.server.android.Web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/badge/server/android/Entity/rawdata" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="dev/login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="content-type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;data&quot;:1}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 1 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ServerApplication">
+    <configuration name="AES" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.badge.server.android.Utils.AES" />
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.badge.server.android.Utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.badge.server.ServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AES" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7dd60cd-55f0-4d5a-8fc2-c9b5775933aa" name="Default Changelist" comment="" />
+      <created>1617689705696</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617689705696</updated>
+      <workItem from="1617689710935" duration="3462000" />
+      <workItem from="1617739182961" duration="79000" />
+      <workItem from="1617739286709" duration="28000" />
+      <workItem from="1617739347622" duration="475000" />
+      <workItem from="1617739873473" duration="1001000" />
+      <workItem from="1617758463792" duration="7359000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1360" y="202" key="#Assign_Data_Sources" timestamp="1617691291024">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1360" y="202" key="#Assign_Data_Sources/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1617691291024" />
+    <state x="-2991" y="257" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617765106549">
+      <screen x="-3000" y="-102" width="1080" height="1920" />
+    </state>
+    <state x="-1360" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1617691278518" />
+    <state x="-2991" y="257" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617765106549" />
+    <state x="-2714" y="563" key="#com.intellij.ide.util.MemberChooser" timestamp="1617740735119">
+      <screen x="-3000" y="-102" width="1080" height="1920" />
+    </state>
+    <state x="-2714" y="563" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617740735119" />
+    <state width="1036" height="862" key="GridCell.Tab.0.bottom" timestamp="1617822444262">
+      <screen x="-3000" y="-102" width="1080" height="1920" />
+    </state>
+    <state width="1876" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1617691816279" />
+    <state width="1036" height="862" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617822444262" />
+    <state width="1036" height="347" key="GridCell.Tab.0.bottom/0.25.1440.875/-1920.25.1920.1055/-2952.-77.1032.1895@-2952.-77.1032.1895" timestamp="1617740793998" />
+    <state width="1036" height="347" key="GridCell.Tab.0.bottom/0.25.1440.875/-1920.25.1920.1055/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617739823288" />
+    <state width="1036" height="862" key="GridCell.Tab.0.center" timestamp="1617822444260">
+      <screen x="-3000" y="-102" width="1080" height="1920" />
+    </state>
+    <state width="1876" height="304" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1617691816276" />
+    <state width="1036" height="862" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617822444260" />
+    <state width="1036" height="347" key="GridCell.Tab.0.center/0.25.1440.875/-1920.25.1920.1055/-2952.-77.1032.1895@-2952.-77.1032.1895" timestamp="1617740793995" />
+    <state width="1036" height="347" key="GridCell.Tab.0.center/0.25.1440.875/-1920.25.1920.1055/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617739823286" />
+    <state width="1036" height="862" key="GridCell.Tab.0.left" timestamp="1617822444259">
+      <screen x="-3000" y="-102" width="1080" height="1920" />
+    </state>
+    <state width="1876" height="304" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1617691816275" />
+    <state width="1036" height="862" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617822444259" />
+    <state width="1036" height="347" key="GridCell.Tab.0.left/0.25.1440.875/-1920.25.1920.1055/-2952.-77.1032.1895@-2952.-77.1032.1895" timestamp="1617740793993" />
+    <state width="1036" height="347" key="GridCell.Tab.0.left/0.25.1440.875/-1920.25.1920.1055/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617739823284" />
+    <state width="1036" height="862" key="GridCell.Tab.0.right" timestamp="1617822444261">
+      <screen x="-3000" y="-102" width="1080" height="1920" />
+    </state>
+    <state width="1876" height="304" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1617691816278" />
+    <state width="1036" height="862" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617822444261" />
+    <state width="1036" height="347" key="GridCell.Tab.0.right/0.25.1440.875/-1920.25.1920.1055/-2952.-77.1032.1895@-2952.-77.1032.1895" timestamp="1617740793996" />
+    <state width="1036" height="347" key="GridCell.Tab.0.right/0.25.1440.875/-1920.25.1920.1055/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617739823287" />
+    <state width="1036" height="862" key="GridCell.Tab.1.bottom" timestamp="1617822444269">
+      <screen x="-3000" y="-102" width="1080" height="1920" />
+    </state>
+    <state width="1876" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1617691816287" />
+    <state width="1036" height="862" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617822444269" />
+    <state width="1036" height="347" key="GridCell.Tab.1.bottom/0.25.1440.875/-1920.25.1920.1055/-2952.-77.1032.1895@-2952.-77.1032.1895" timestamp="1617740794003" />
+    <state width="1036" height="347" key="GridCell.Tab.1.bottom/0.25.1440.875/-1920.25.1920.1055/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617739823291" />
+    <state width="1036" height="862" key="GridCell.Tab.1.center" timestamp="1617822444265">
+      <screen x="-3000" y="-102" width="1080" height="1920" />
+    </state>
+    <state width="1876" height="304" key="GridCell.Tab.1.center/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1617691816281" />
+    <state width="1036" height="862" key="GridCell.Tab.1.center/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617822444265" />
+    <state width="1036" height="347" key="GridCell.Tab.1.center/0.25.1440.875/-1920.25.1920.1055/-2952.-77.1032.1895@-2952.-77.1032.1895" timestamp="1617740794000" />
+    <state width="1036" height="347" key="GridCell.Tab.1.center/0.25.1440.875/-1920.25.1920.1055/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617739823289" />
+    <state width="1036" height="862" key="GridCell.Tab.1.left" timestamp="1617822444263">
+      <screen x="-3000" y="-102" width="1080" height="1920" />
+    </state>
+    <state width="1876" height="304" key="GridCell.Tab.1.left/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1617691816280" />
+    <state width="1036" height="862" key="GridCell.Tab.1.left/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617822444263" />
+    <state width="1036" height="347" key="GridCell.Tab.1.left/0.25.1440.875/-1920.25.1920.1055/-2952.-77.1032.1895@-2952.-77.1032.1895" timestamp="1617740793999" />
+    <state width="1036" height="347" key="GridCell.Tab.1.left/0.25.1440.875/-1920.25.1920.1055/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617739823288" />
+    <state width="1036" height="862" key="GridCell.Tab.1.right" timestamp="1617822444267">
+      <screen x="-3000" y="-102" width="1080" height="1920" />
+    </state>
+    <state width="1876" height="304" key="GridCell.Tab.1.right/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1617691816285" />
+    <state width="1036" height="862" key="GridCell.Tab.1.right/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617822444267" />
+    <state width="1036" height="347" key="GridCell.Tab.1.right/0.25.1440.875/-1920.25.1920.1055/-2952.-77.1032.1895@-2952.-77.1032.1895" timestamp="1617740794001" />
+    <state width="1036" height="347" key="GridCell.Tab.1.right/0.25.1440.875/-1920.25.1920.1055/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617739823290" />
+    <state width="237" height="457" key="HiddenNamespacesPopup" timestamp="1617690992323">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="237" height="457" key="HiddenNamespacesPopup/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1617690992323" />
+    <state x="-2951" y="494" key="SettingsEditor" timestamp="1617739820667">
+      <screen x="-3000" y="-102" width="1080" height="1920" />
+    </state>
+    <state x="-2951" y="494" key="SettingsEditor/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617739315078" />
+    <state x="-2951" y="494" key="SettingsEditor/0.25.1440.875/-1920.25.1920.1055/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617739820667" />
+    <state x="-2731" y="545" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1617764414106">
+      <screen x="-3000" y="-102" width="1080" height="1920" />
+    </state>
+    <state x="-2731" y="545" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617764414106" />
+    <state x="-2781" y="687" key="com.intellij.ide.util.TipDialog" timestamp="1617739875946">
+      <screen x="-3000" y="-102" width="1080" height="1920" />
+    </state>
+    <state x="-2781" y="687" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617739875946" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/badge/server/android/Service/Impl/AndroidDataServiceImpl.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
