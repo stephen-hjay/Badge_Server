@@ -1,6 +1,5 @@
 package com.badge.server.android.Utils;
 
-import org.springframework.stereotype.Component;
 
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;

@@ -21,6 +21,7 @@
         <hsqldb.version>2.5.0</hsqldb.version>
         <junit.version>5.7.1</junit.version>
         <fastjson.version>1.2.75</fastjson.version>
+        <mysql-connection.version>8.0.11</mysql-connection.version>
     </properties>
 
     <dependencies>
@@ -55,15 +56,11 @@
             <artifactId>javax.servlet-api</artifactId>
         </dependency>
 
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
@@ -78,6 +75,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql-connection.version}</version>
             <scope>runtime</scope>
         </dependency>
         <dependency>
@@ -96,10 +94,10 @@
             <artifactId>validation-api</artifactId>
             <version>2.0.1.Final</version>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-security</artifactId>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
@@ -133,6 +131,7 @@
             <artifactId>hsqldb</artifactId>
             <version>${hsqldb.version}</version>
         </dependency>
+
 
 
     </dependencies>

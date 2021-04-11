@@ -1,6 +1,8 @@
 package com.badge.server.android.DAO;
 
-//import com.badge.android.Entity.rawdata.Voice;
 
-//public interface VoiceRepository extends JpaRepository<Voice,Long> {
-//}
+import com.badge.server.android.Entity.Pojo.Voice;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface VoiceRepository extends JpaRepository<Voice,Long> {
+}

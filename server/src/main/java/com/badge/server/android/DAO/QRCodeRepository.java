@@ -1,6 +1,8 @@
 package com.badge.server.android.DAO;
 
-//import com.badge.android.Entity.rawdata.QRCode;
 
-//public interface QRCodeRepository extends JpaRepository<QRCode,Long> {
-//}
+import com.badge.server.android.Entity.Pojo.QRCode;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface QRCodeRepository extends JpaRepository<QRCode,Long> {
+}
