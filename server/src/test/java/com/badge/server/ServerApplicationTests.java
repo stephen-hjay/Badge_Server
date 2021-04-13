@@ -5,9 +5,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class ServerApplicationTests {
-
     @Test
-    void contextLoads() {
+    public void maint() {
+        System.out.println(System.currentTimeMillis());
     }
 
 }

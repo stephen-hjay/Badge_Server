@@ -5,6 +5,7 @@ import com.badge.server.frontend.service.DatasetService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
@@ -14,8 +15,8 @@ import java.util.List;
 public class DatasetController {
     @Autowired
     private DatasetService datasetService;
-    @GetMapping
-    public List<Dataset> getAll() {
-        return datasetService.getAll();
+    @GetMapping("/getbadge")
+    public List<Dataset> getAll(@PathVariable(name = "admin") String admin) {
+        return datasetService.getAll(admin);
     }
 }

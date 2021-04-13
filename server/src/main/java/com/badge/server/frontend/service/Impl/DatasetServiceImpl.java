@@ -9,7 +9,7 @@ import java.util.List;
 @Service
 public class DatasetServiceImpl implements DatasetService {
     @Override
-    public List<Dataset> getAll() {
+    public List<Dataset> getAll(String admin) {
         return null;
     }
 }
