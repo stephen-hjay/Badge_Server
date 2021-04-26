@@ -7,5 +7,14 @@ public class GlobalParameters {
         public static final String algorithm = "SHA-256"; // "MD5"
     }
 
+    public static class MovementProcess{
+        public static final int lastSecSampleNum = 10;
+    }
+
+    public static final long timeout = 30 * 1000;
+    public static final long persistTime = 1 * 1000;
+
+
+
 
 }
