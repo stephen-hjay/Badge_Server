@@ -42,13 +42,6 @@
         <item name="test_badge@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="test_badge: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="activerecord: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test_badge@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="test_badge: schema" type="76f4a085:MysqlImplModel$Schema" />
         <item name="admin: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
       <path>
@@ -57,41 +50,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="test_badge: schema" type="76f4a085:MysqlImplModel$Schema" />
         <item name="badge: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test_badge@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="test_badge: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="dataset: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test_badge@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="test_badge: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="movement: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test_badge@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="test_badge: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="movementstate: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test_badge@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="test_badge: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="nearmacs: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="test_badge@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="test_badge: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="voice: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -153,12 +111,8 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/badge/server/android/Entity/rawdata" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.badge.server" />
-      <recent name="com.badge.server.android.Web" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.badge.server.frontend.Controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/badge/server/android/Utils" />
@@ -166,10 +120,1169 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/badge/server/android/Entity" />
       <recent name="$PROJECT_DIR$/src/main/java/com/badge/server/android/DAO" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.badge.server" />
+      <recent name="com.badge.server.android.Web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/badge/server/android/Entity/rawdata" />
+    </key>
   </component>
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="047FB9CCBD3C7717F4453741B5138DDD" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/user/assign" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="content-type" />
+                <option name="value" value="text/html" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;data&quot;:&quot;m/j348/+Jwm4yiz3Qw6JckYwTIifTCPI4D0tWTq68Q9r1EWYH4ZfbjEtKXnnM06o++lasq1uT0TjzBmOMB7DNr+/RloyyXbbstr7wWXiYKw3/A2hJJ6Qf+DbKL7u/FrjYXoAcgtZNVOcpMQ5+HpCv+1MuAmpuhCwf9QF3ZRN90owf7WJksfls0l1xyIezQ35YscXZo5SbOEFkuGVAv8wydeg23FQQS5CaRtRB1f3shZsihbk1rHek2Bdv8YsbeAE0E/Bgw1FDNMDjZX7SuYbF7udCOajjQJVlURvR7WYql1l0lNtxtt5jPoGTQVz7nY9Mjt6cAVRgGrWCP+Q4cNY2uxdo/6FB54GbaSOPrIRQeT3w2FapBHmRCXBH1gVdaqQhWMNZwmv8wWPgy9aMb6XkgOVVjgRmGhCLMX+pLyqwfxLaHoVu8H9wlyNHOQ3Sq05xTLulV8k/Kut9xbCNZTqA7y7HQxNHlmJ+0AaHenqKPJG843M9+Fs/bqvco7w8vyJ/zinaXjnfnKKg4FY1KADCYYNIi8qFFq2E/LkxOxhrWEowcdgYlzPNybk7GVa36yuIKbikttIWGjN/ZpH/VRXQjBumDN5jZHDbzUuMHOH81e5xfuwi6Lvuc8vpspmRHr1FFU+mVcNytIUPvYt7KO5AOyRZD7QkPY+WEhVHvHYtIv6j1hfi+9Pmoy/gfn8DTSHzjfBU+xzN/TI6vypeRFHeppae8rfQZce9Bo0W+nviLu30Dq7Wci4zFWaSqfO9Y1GmSsdWu2Ez2vfIeXDc6SR3Cr4blVUVG/KgqdvfcxkKhslHdiBKLJublegzjRYdY6ClBIjbmEYce56BU8H+XPi4vteCYpsdwPkoLxCvvkiUL22L2lyKCEJgbGsKnGAPdXiid3Em6pSvQMDr0QYajh+Jihio9LuvbDMKFb7k8h1Ej5u2q92W3h5yV4bt6exfLbNcP3z8eSxYr8ok+J6RPjlg7LMEYi1TYRxPC7cohs7ZUrBnYS4u2BSXxeRqVU5Sl1dxm0oVyzmA4bZ6MATQYk+KGJjYG1Aj+f9GWZ+8lVkim7ZFH+ptscEK0tn94Gb2tdSpTR545Mds60n7WfjhHWW2u3AmbIak5pmZSS6LqEL1LuLrrrQwBkFsMoJBpc7HyHo9GVT5vng6QehZUJs+JqKb0OA+1XY0/OlOayoAgsP1RAm7yqu3tYJesOw0gIAcuegtO4q1QviDNRTU07A8xUMfbDWBBb9aXzUBs+pV1k9Dz+LpsLczjBam5mzdvFvjwfr/Df2dxjRl7Nfb4dp/ZdpaNtV4oAXJQ0qLirgysEAfcotAcDmQSk8X9EbCNqYHQnGUcPptRpFJEm44XHtCOigwh9dxQzd2iPoeoGH4O8WF4k734IwnPYAe+s3dEIsv6M8&quot;,&quot;type&quot;:&quot;ACCELEROMETERS&quot;,&quot;version&quot;:1618262832786}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="047FB9CCBD3C7717F4453741B5138DDD" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/user/assign" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="content-type" />
+                <option name="value" value="text/html" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="dataset_id" />
+                <option name="value" value="Nokia3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="selected_badges" />
+                <option name="value" value="[&quot;device-0513-3&quot;,&quot;device-0513-4&quot;]" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;data&quot;:&quot;m/j348/+Jwm4yiz3Qw6JckYwTIifTCPI4D0tWTq68Q9r1EWYH4ZfbjEtKXnnM06o++lasq1uT0TjzBmOMB7DNr+/RloyyXbbstr7wWXiYKw3/A2hJJ6Qf+DbKL7u/FrjYXoAcgtZNVOcpMQ5+HpCv+1MuAmpuhCwf9QF3ZRN90owf7WJksfls0l1xyIezQ35YscXZo5SbOEFkuGVAv8wydeg23FQQS5CaRtRB1f3shZsihbk1rHek2Bdv8YsbeAE0E/Bgw1FDNMDjZX7SuYbF7udCOajjQJVlURvR7WYql1l0lNtxtt5jPoGTQVz7nY9Mjt6cAVRgGrWCP+Q4cNY2uxdo/6FB54GbaSOPrIRQeT3w2FapBHmRCXBH1gVdaqQhWMNZwmv8wWPgy9aMb6XkgOVVjgRmGhCLMX+pLyqwfxLaHoVu8H9wlyNHOQ3Sq05xTLulV8k/Kut9xbCNZTqA7y7HQxNHlmJ+0AaHenqKPJG843M9+Fs/bqvco7w8vyJ/zinaXjnfnKKg4FY1KADCYYNIi8qFFq2E/LkxOxhrWEowcdgYlzPNybk7GVa36yuIKbikttIWGjN/ZpH/VRXQjBumDN5jZHDbzUuMHOH81e5xfuwi6Lvuc8vpspmRHr1FFU+mVcNytIUPvYt7KO5AOyRZD7QkPY+WEhVHvHYtIv6j1hfi+9Pmoy/gfn8DTSHzjfBU+xzN/TI6vypeRFHeppae8rfQZce9Bo0W+nviLu30Dq7Wci4zFWaSqfO9Y1GmSsdWu2Ez2vfIeXDc6SR3Cr4blVUVG/KgqdvfcxkKhslHdiBKLJublegzjRYdY6ClBIjbmEYce56BU8H+XPi4vteCYpsdwPkoLxCvvkiUL22L2lyKCEJgbGsKnGAPdXiid3Em6pSvQMDr0QYajh+Jihio9LuvbDMKFb7k8h1Ej5u2q92W3h5yV4bt6exfLbNcP3z8eSxYr8ok+J6RPjlg7LMEYi1TYRxPC7cohs7ZUrBnYS4u2BSXxeRqVU5Sl1dxm0oVyzmA4bZ6MATQYk+KGJjYG1Aj+f9GWZ+8lVkim7ZFH+ptscEK0tn94Gb2tdSpTR545Mds60n7WfjhHWW2u3AmbIak5pmZSS6LqEL1LuLrrrQwBkFsMoJBpc7HyHo9GVT5vng6QehZUJs+JqKb0OA+1XY0/OlOayoAgsP1RAm7yqu3tYJesOw0gIAcuegtO4q1QviDNRTU07A8xUMfbDWBBb9aXzUBs+pV1k9Dz+LpsLczjBam5mzdvFvjwfr/Df2dxjRl7Nfb4dp/ZdpaNtV4oAXJQ0qLirgysEAfcotAcDmQSk8X9EbCNqYHQnGUcPptRpFJEm44XHtCOigwh9dxQzd2iPoeoGH4O8WF4k734IwnPYAe+s3dEIsv6M8&quot;,&quot;type&quot;:&quot;ACCELEROMETERS&quot;,&quot;version&quot;:1618262832786}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="047FB9CCBD3C7717F4453741B5138DDD" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/user/assign" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="content-type" />
+                <option name="value" value="text/html" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="dataset_id" />
+                <option name="value" value="Nokia3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="selected_badges" />
+                <option name="value" value="[&quot;device-0513-3&quot;,&quot;device-0513-4&quot;]" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;data&quot;:&quot;m/j348/+Jwm4yiz3Qw6JckYwTIifTCPI4D0tWTq68Q9r1EWYH4ZfbjEtKXnnM06o++lasq1uT0TjzBmOMB7DNr+/RloyyXbbstr7wWXiYKw3/A2hJJ6Qf+DbKL7u/FrjYXoAcgtZNVOcpMQ5+HpCv+1MuAmpuhCwf9QF3ZRN90owf7WJksfls0l1xyIezQ35YscXZo5SbOEFkuGVAv8wydeg23FQQS5CaRtRB1f3shZsihbk1rHek2Bdv8YsbeAE0E/Bgw1FDNMDjZX7SuYbF7udCOajjQJVlURvR7WYql1l0lNtxtt5jPoGTQVz7nY9Mjt6cAVRgGrWCP+Q4cNY2uxdo/6FB54GbaSOPrIRQeT3w2FapBHmRCXBH1gVdaqQhWMNZwmv8wWPgy9aMb6XkgOVVjgRmGhCLMX+pLyqwfxLaHoVu8H9wlyNHOQ3Sq05xTLulV8k/Kut9xbCNZTqA7y7HQxNHlmJ+0AaHenqKPJG843M9+Fs/bqvco7w8vyJ/zinaXjnfnKKg4FY1KADCYYNIi8qFFq2E/LkxOxhrWEowcdgYlzPNybk7GVa36yuIKbikttIWGjN/ZpH/VRXQjBumDN5jZHDbzUuMHOH81e5xfuwi6Lvuc8vpspmRHr1FFU+mVcNytIUPvYt7KO5AOyRZD7QkPY+WEhVHvHYtIv6j1hfi+9Pmoy/gfn8DTSHzjfBU+xzN/TI6vypeRFHeppae8rfQZce9Bo0W+nviLu30Dq7Wci4zFWaSqfO9Y1GmSsdWu2Ez2vfIeXDc6SR3Cr4blVUVG/KgqdvfcxkKhslHdiBKLJublegzjRYdY6ClBIjbmEYce56BU8H+XPi4vteCYpsdwPkoLxCvvkiUL22L2lyKCEJgbGsKnGAPdXiid3Em6pSvQMDr0QYajh+Jihio9LuvbDMKFb7k8h1Ej5u2q92W3h5yV4bt6exfLbNcP3z8eSxYr8ok+J6RPjlg7LMEYi1TYRxPC7cohs7ZUrBnYS4u2BSXxeRqVU5Sl1dxm0oVyzmA4bZ6MATQYk+KGJjYG1Aj+f9GWZ+8lVkim7ZFH+ptscEK0tn94Gb2tdSpTR545Mds60n7WfjhHWW2u3AmbIak5pmZSS6LqEL1LuLrrrQwBkFsMoJBpc7HyHo9GVT5vng6QehZUJs+JqKb0OA+1XY0/OlOayoAgsP1RAm7yqu3tYJesOw0gIAcuegtO4q1QviDNRTU07A8xUMfbDWBBb9aXzUBs+pV1k9Dz+LpsLczjBam5mzdvFvjwfr/Df2dxjRl7Nfb4dp/ZdpaNtV4oAXJQ0qLirgysEAfcotAcDmQSk8X9EbCNqYHQnGUcPptRpFJEm44XHtCOigwh9dxQzd2iPoeoGH4O8WF4k734IwnPYAe+s3dEIsv6M8&quot;,&quot;type&quot;:&quot;ACCELEROMETERS&quot;,&quot;version&quot;:1618262832786}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="047FB9CCBD3C7717F4453741B5138DDD" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/user/assign" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="content-type" />
+                <option name="value" value="text/html" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="dataset_id" />
+                <option name="value" value="Nokia3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="badge_id" />
+                <option name="value" value="[&quot;device-0513-3&quot;,&quot;device-0513-4&quot;]" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;data&quot;:&quot;m/j348/+Jwm4yiz3Qw6JckYwTIifTCPI4D0tWTq68Q9r1EWYH4ZfbjEtKXnnM06o++lasq1uT0TjzBmOMB7DNr+/RloyyXbbstr7wWXiYKw3/A2hJJ6Qf+DbKL7u/FrjYXoAcgtZNVOcpMQ5+HpCv+1MuAmpuhCwf9QF3ZRN90owf7WJksfls0l1xyIezQ35YscXZo5SbOEFkuGVAv8wydeg23FQQS5CaRtRB1f3shZsihbk1rHek2Bdv8YsbeAE0E/Bgw1FDNMDjZX7SuYbF7udCOajjQJVlURvR7WYql1l0lNtxtt5jPoGTQVz7nY9Mjt6cAVRgGrWCP+Q4cNY2uxdo/6FB54GbaSOPrIRQeT3w2FapBHmRCXBH1gVdaqQhWMNZwmv8wWPgy9aMb6XkgOVVjgRmGhCLMX+pLyqwfxLaHoVu8H9wlyNHOQ3Sq05xTLulV8k/Kut9xbCNZTqA7y7HQxNHlmJ+0AaHenqKPJG843M9+Fs/bqvco7w8vyJ/zinaXjnfnKKg4FY1KADCYYNIi8qFFq2E/LkxOxhrWEowcdgYlzPNybk7GVa36yuIKbikttIWGjN/ZpH/VRXQjBumDN5jZHDbzUuMHOH81e5xfuwi6Lvuc8vpspmRHr1FFU+mVcNytIUPvYt7KO5AOyRZD7QkPY+WEhVHvHYtIv6j1hfi+9Pmoy/gfn8DTSHzjfBU+xzN/TI6vypeRFHeppae8rfQZce9Bo0W+nviLu30Dq7Wci4zFWaSqfO9Y1GmSsdWu2Ez2vfIeXDc6SR3Cr4blVUVG/KgqdvfcxkKhslHdiBKLJublegzjRYdY6ClBIjbmEYce56BU8H+XPi4vteCYpsdwPkoLxCvvkiUL22L2lyKCEJgbGsKnGAPdXiid3Em6pSvQMDr0QYajh+Jihio9LuvbDMKFb7k8h1Ej5u2q92W3h5yV4bt6exfLbNcP3z8eSxYr8ok+J6RPjlg7LMEYi1TYRxPC7cohs7ZUrBnYS4u2BSXxeRqVU5Sl1dxm0oVyzmA4bZ6MATQYk+KGJjYG1Aj+f9GWZ+8lVkim7ZFH+ptscEK0tn94Gb2tdSpTR545Mds60n7WfjhHWW2u3AmbIak5pmZSS6LqEL1LuLrrrQwBkFsMoJBpc7HyHo9GVT5vng6QehZUJs+JqKb0OA+1XY0/OlOayoAgsP1RAm7yqu3tYJesOw0gIAcuegtO4q1QviDNRTU07A8xUMfbDWBBb9aXzUBs+pV1k9Dz+LpsLczjBam5mzdvFvjwfr/Df2dxjRl7Nfb4dp/ZdpaNtV4oAXJQ0qLirgysEAfcotAcDmQSk8X9EbCNqYHQnGUcPptRpFJEm44XHtCOigwh9dxQzd2iPoeoGH4O8WF4k734IwnPYAe+s3dEIsv6M8&quot;,&quot;type&quot;:&quot;ACCELEROMETERS&quot;,&quot;version&quot;:1618262832786}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="047FB9CCBD3C7717F4453741B5138DDD" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/user/getbadges" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="content-type" />
+                <option name="value" value="text/html" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="dataset_id" />
+                <option name="value" value="Nokia3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="badge_id" />
+                <option name="value" value="[&quot;device-0513-3&quot;,&quot;device-0513-4&quot;]" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;data&quot;:&quot;m/j348/+Jwm4yiz3Qw6JckYwTIifTCPI4D0tWTq68Q9r1EWYH4ZfbjEtKXnnM06o++lasq1uT0TjzBmOMB7DNr+/RloyyXbbstr7wWXiYKw3/A2hJJ6Qf+DbKL7u/FrjYXoAcgtZNVOcpMQ5+HpCv+1MuAmpuhCwf9QF3ZRN90owf7WJksfls0l1xyIezQ35YscXZo5SbOEFkuGVAv8wydeg23FQQS5CaRtRB1f3shZsihbk1rHek2Bdv8YsbeAE0E/Bgw1FDNMDjZX7SuYbF7udCOajjQJVlURvR7WYql1l0lNtxtt5jPoGTQVz7nY9Mjt6cAVRgGrWCP+Q4cNY2uxdo/6FB54GbaSOPrIRQeT3w2FapBHmRCXBH1gVdaqQhWMNZwmv8wWPgy9aMb6XkgOVVjgRmGhCLMX+pLyqwfxLaHoVu8H9wlyNHOQ3Sq05xTLulV8k/Kut9xbCNZTqA7y7HQxNHlmJ+0AaHenqKPJG843M9+Fs/bqvco7w8vyJ/zinaXjnfnKKg4FY1KADCYYNIi8qFFq2E/LkxOxhrWEowcdgYlzPNybk7GVa36yuIKbikttIWGjN/ZpH/VRXQjBumDN5jZHDbzUuMHOH81e5xfuwi6Lvuc8vpspmRHr1FFU+mVcNytIUPvYt7KO5AOyRZD7QkPY+WEhVHvHYtIv6j1hfi+9Pmoy/gfn8DTSHzjfBU+xzN/TI6vypeRFHeppae8rfQZce9Bo0W+nviLu30Dq7Wci4zFWaSqfO9Y1GmSsdWu2Ez2vfIeXDc6SR3Cr4blVUVG/KgqdvfcxkKhslHdiBKLJublegzjRYdY6ClBIjbmEYce56BU8H+XPi4vteCYpsdwPkoLxCvvkiUL22L2lyKCEJgbGsKnGAPdXiid3Em6pSvQMDr0QYajh+Jihio9LuvbDMKFb7k8h1Ej5u2q92W3h5yV4bt6exfLbNcP3z8eSxYr8ok+J6RPjlg7LMEYi1TYRxPC7cohs7ZUrBnYS4u2BSXxeRqVU5Sl1dxm0oVyzmA4bZ6MATQYk+KGJjYG1Aj+f9GWZ+8lVkim7ZFH+ptscEK0tn94Gb2tdSpTR545Mds60n7WfjhHWW2u3AmbIak5pmZSS6LqEL1LuLrrrQwBkFsMoJBpc7HyHo9GVT5vng6QehZUJs+JqKb0OA+1XY0/OlOayoAgsP1RAm7yqu3tYJesOw0gIAcuegtO4q1QviDNRTU07A8xUMfbDWBBb9aXzUBs+pV1k9Dz+LpsLczjBam5mzdvFvjwfr/Df2dxjRl7Nfb4dp/ZdpaNtV4oAXJQ0qLirgysEAfcotAcDmQSk8X9EbCNqYHQnGUcPptRpFJEm44XHtCOigwh9dxQzd2iPoeoGH4O8WF4k734IwnPYAe+s3dEIsv6M8&quot;,&quot;type&quot;:&quot;ACCELEROMETERS&quot;,&quot;version&quot;:1618262832786}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="047FB9CCBD3C7717F4453741B5138DDD" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/user/assign" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="content-type" />
+                <option name="value" value="text/html" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="dataset_id" />
+                <option name="value" value="Nokia3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="badge_id" />
+                <option name="value" value="[&quot;device-0513-3&quot;,&quot;device-0513-4&quot;]" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;data&quot;:&quot;m/j348/+Jwm4yiz3Qw6JckYwTIifTCPI4D0tWTq68Q9r1EWYH4ZfbjEtKXnnM06o++lasq1uT0TjzBmOMB7DNr+/RloyyXbbstr7wWXiYKw3/A2hJJ6Qf+DbKL7u/FrjYXoAcgtZNVOcpMQ5+HpCv+1MuAmpuhCwf9QF3ZRN90owf7WJksfls0l1xyIezQ35YscXZo5SbOEFkuGVAv8wydeg23FQQS5CaRtRB1f3shZsihbk1rHek2Bdv8YsbeAE0E/Bgw1FDNMDjZX7SuYbF7udCOajjQJVlURvR7WYql1l0lNtxtt5jPoGTQVz7nY9Mjt6cAVRgGrWCP+Q4cNY2uxdo/6FB54GbaSOPrIRQeT3w2FapBHmRCXBH1gVdaqQhWMNZwmv8wWPgy9aMb6XkgOVVjgRmGhCLMX+pLyqwfxLaHoVu8H9wlyNHOQ3Sq05xTLulV8k/Kut9xbCNZTqA7y7HQxNHlmJ+0AaHenqKPJG843M9+Fs/bqvco7w8vyJ/zinaXjnfnKKg4FY1KADCYYNIi8qFFq2E/LkxOxhrWEowcdgYlzPNybk7GVa36yuIKbikttIWGjN/ZpH/VRXQjBumDN5jZHDbzUuMHOH81e5xfuwi6Lvuc8vpspmRHr1FFU+mVcNytIUPvYt7KO5AOyRZD7QkPY+WEhVHvHYtIv6j1hfi+9Pmoy/gfn8DTSHzjfBU+xzN/TI6vypeRFHeppae8rfQZce9Bo0W+nviLu30Dq7Wci4zFWaSqfO9Y1GmSsdWu2Ez2vfIeXDc6SR3Cr4blVUVG/KgqdvfcxkKhslHdiBKLJublegzjRYdY6ClBIjbmEYce56BU8H+XPi4vteCYpsdwPkoLxCvvkiUL22L2lyKCEJgbGsKnGAPdXiid3Em6pSvQMDr0QYajh+Jihio9LuvbDMKFb7k8h1Ej5u2q92W3h5yV4bt6exfLbNcP3z8eSxYr8ok+J6RPjlg7LMEYi1TYRxPC7cohs7ZUrBnYS4u2BSXxeRqVU5Sl1dxm0oVyzmA4bZ6MATQYk+KGJjYG1Aj+f9GWZ+8lVkim7ZFH+ptscEK0tn94Gb2tdSpTR545Mds60n7WfjhHWW2u3AmbIak5pmZSS6LqEL1LuLrrrQwBkFsMoJBpc7HyHo9GVT5vng6QehZUJs+JqKb0OA+1XY0/OlOayoAgsP1RAm7yqu3tYJesOw0gIAcuegtO4q1QviDNRTU07A8xUMfbDWBBb9aXzUBs+pV1k9Dz+LpsLczjBam5mzdvFvjwfr/Df2dxjRl7Nfb4dp/ZdpaNtV4oAXJQ0qLirgysEAfcotAcDmQSk8X9EbCNqYHQnGUcPptRpFJEm44XHtCOigwh9dxQzd2iPoeoGH4O8WF4k734IwnPYAe+s3dEIsv6M8&quot;,&quot;type&quot;:&quot;ACCELEROMETERS&quot;,&quot;version&quot;:1618262832786}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="047FB9CCBD3C7717F4453741B5138DDD" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/badge/getbadges" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="content-type" />
+                <option name="value" value="text/html" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="dataset_id" />
+                <option name="value" value="Nokia3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="badge_id" />
+                <option name="value" value="[&quot;device-0513-3&quot;,&quot;device-0513-4&quot;]" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;data&quot;:&quot;m/j348/+Jwm4yiz3Qw6JckYwTIifTCPI4D0tWTq68Q9r1EWYH4ZfbjEtKXnnM06o++lasq1uT0TjzBmOMB7DNr+/RloyyXbbstr7wWXiYKw3/A2hJJ6Qf+DbKL7u/FrjYXoAcgtZNVOcpMQ5+HpCv+1MuAmpuhCwf9QF3ZRN90owf7WJksfls0l1xyIezQ35YscXZo5SbOEFkuGVAv8wydeg23FQQS5CaRtRB1f3shZsihbk1rHek2Bdv8YsbeAE0E/Bgw1FDNMDjZX7SuYbF7udCOajjQJVlURvR7WYql1l0lNtxtt5jPoGTQVz7nY9Mjt6cAVRgGrWCP+Q4cNY2uxdo/6FB54GbaSOPrIRQeT3w2FapBHmRCXBH1gVdaqQhWMNZwmv8wWPgy9aMb6XkgOVVjgRmGhCLMX+pLyqwfxLaHoVu8H9wlyNHOQ3Sq05xTLulV8k/Kut9xbCNZTqA7y7HQxNHlmJ+0AaHenqKPJG843M9+Fs/bqvco7w8vyJ/zinaXjnfnKKg4FY1KADCYYNIi8qFFq2E/LkxOxhrWEowcdgYlzPNybk7GVa36yuIKbikttIWGjN/ZpH/VRXQjBumDN5jZHDbzUuMHOH81e5xfuwi6Lvuc8vpspmRHr1FFU+mVcNytIUPvYt7KO5AOyRZD7QkPY+WEhVHvHYtIv6j1hfi+9Pmoy/gfn8DTSHzjfBU+xzN/TI6vypeRFHeppae8rfQZce9Bo0W+nviLu30Dq7Wci4zFWaSqfO9Y1GmSsdWu2Ez2vfIeXDc6SR3Cr4blVUVG/KgqdvfcxkKhslHdiBKLJublegzjRYdY6ClBIjbmEYce56BU8H+XPi4vteCYpsdwPkoLxCvvkiUL22L2lyKCEJgbGsKnGAPdXiid3Em6pSvQMDr0QYajh+Jihio9LuvbDMKFb7k8h1Ej5u2q92W3h5yV4bt6exfLbNcP3z8eSxYr8ok+J6RPjlg7LMEYi1TYRxPC7cohs7ZUrBnYS4u2BSXxeRqVU5Sl1dxm0oVyzmA4bZ6MATQYk+KGJjYG1Aj+f9GWZ+8lVkim7ZFH+ptscEK0tn94Gb2tdSpTR545Mds60n7WfjhHWW2u3AmbIak5pmZSS6LqEL1LuLrrrQwBkFsMoJBpc7HyHo9GVT5vng6QehZUJs+JqKb0OA+1XY0/OlOayoAgsP1RAm7yqu3tYJesOw0gIAcuegtO4q1QviDNRTU07A8xUMfbDWBBb9aXzUBs+pV1k9Dz+LpsLczjBam5mzdvFvjwfr/Df2dxjRl7Nfb4dp/ZdpaNtV4oAXJQ0qLirgysEAfcotAcDmQSk8X9EbCNqYHQnGUcPptRpFJEm44XHtCOigwh9dxQzd2iPoeoGH4O8WF4k734IwnPYAe+s3dEIsv6M8&quot;,&quot;type&quot;:&quot;ACCELEROMETERS&quot;,&quot;version&quot;:1618262832786}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="047FB9CCBD3C7717F4453741B5138DDD" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/badge/badgemovementratio" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="content-type" />
+                <option name="value" value="text/html" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="dataset_id" />
+                <option name="value" value="Nokia3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataFrom" />
+                <option name="value" value="1619552999406" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataTo" />
+                <option name="value" value="1619554883111" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="minute" />
+                <option name="value" value="5" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;data&quot;:&quot;m/j348/+Jwm4yiz3Qw6JckYwTIifTCPI4D0tWTq68Q9r1EWYH4ZfbjEtKXnnM06o++lasq1uT0TjzBmOMB7DNr+/RloyyXbbstr7wWXiYKw3/A2hJJ6Qf+DbKL7u/FrjYXoAcgtZNVOcpMQ5+HpCv+1MuAmpuhCwf9QF3ZRN90owf7WJksfls0l1xyIezQ35YscXZo5SbOEFkuGVAv8wydeg23FQQS5CaRtRB1f3shZsihbk1rHek2Bdv8YsbeAE0E/Bgw1FDNMDjZX7SuYbF7udCOajjQJVlURvR7WYql1l0lNtxtt5jPoGTQVz7nY9Mjt6cAVRgGrWCP+Q4cNY2uxdo/6FB54GbaSOPrIRQeT3w2FapBHmRCXBH1gVdaqQhWMNZwmv8wWPgy9aMb6XkgOVVjgRmGhCLMX+pLyqwfxLaHoVu8H9wlyNHOQ3Sq05xTLulV8k/Kut9xbCNZTqA7y7HQxNHlmJ+0AaHenqKPJG843M9+Fs/bqvco7w8vyJ/zinaXjnfnKKg4FY1KADCYYNIi8qFFq2E/LkxOxhrWEowcdgYlzPNybk7GVa36yuIKbikttIWGjN/ZpH/VRXQjBumDN5jZHDbzUuMHOH81e5xfuwi6Lvuc8vpspmRHr1FFU+mVcNytIUPvYt7KO5AOyRZD7QkPY+WEhVHvHYtIv6j1hfi+9Pmoy/gfn8DTSHzjfBU+xzN/TI6vypeRFHeppae8rfQZce9Bo0W+nviLu30Dq7Wci4zFWaSqfO9Y1GmSsdWu2Ez2vfIeXDc6SR3Cr4blVUVG/KgqdvfcxkKhslHdiBKLJublegzjRYdY6ClBIjbmEYce56BU8H+XPi4vteCYpsdwPkoLxCvvkiUL22L2lyKCEJgbGsKnGAPdXiid3Em6pSvQMDr0QYajh+Jihio9LuvbDMKFb7k8h1Ej5u2q92W3h5yV4bt6exfLbNcP3z8eSxYr8ok+J6RPjlg7LMEYi1TYRxPC7cohs7ZUrBnYS4u2BSXxeRqVU5Sl1dxm0oVyzmA4bZ6MATQYk+KGJjYG1Aj+f9GWZ+8lVkim7ZFH+ptscEK0tn94Gb2tdSpTR545Mds60n7WfjhHWW2u3AmbIak5pmZSS6LqEL1LuLrrrQwBkFsMoJBpc7HyHo9GVT5vng6QehZUJs+JqKb0OA+1XY0/OlOayoAgsP1RAm7yqu3tYJesOw0gIAcuegtO4q1QviDNRTU07A8xUMfbDWBBb9aXzUBs+pV1k9Dz+LpsLczjBam5mzdvFvjwfr/Df2dxjRl7Nfb4dp/ZdpaNtV4oAXJQ0qLirgysEAfcotAcDmQSk8X9EbCNqYHQnGUcPptRpFJEm44XHtCOigwh9dxQzd2iPoeoGH4O8WF4k734IwnPYAe+s3dEIsv6M8&quot;,&quot;type&quot;:&quot;ACCELEROMETERS&quot;,&quot;version&quot;:1618262832786}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="047FB9CCBD3C7717F4453741B5138DDD" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/badge/speechratio" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="content-type" />
+                <option name="value" value="text/html" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="dataset_id" />
+                <option name="value" value="Nokia3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataFrom" />
+                <option name="value" value="1619552999406" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataTo" />
+                <option name="value" value="1619554883111" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="minute" />
+                <option name="value" value="5" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;data&quot;:&quot;m/j348/+Jwm4yiz3Qw6JckYwTIifTCPI4D0tWTq68Q9r1EWYH4ZfbjEtKXnnM06o++lasq1uT0TjzBmOMB7DNr+/RloyyXbbstr7wWXiYKw3/A2hJJ6Qf+DbKL7u/FrjYXoAcgtZNVOcpMQ5+HpCv+1MuAmpuhCwf9QF3ZRN90owf7WJksfls0l1xyIezQ35YscXZo5SbOEFkuGVAv8wydeg23FQQS5CaRtRB1f3shZsihbk1rHek2Bdv8YsbeAE0E/Bgw1FDNMDjZX7SuYbF7udCOajjQJVlURvR7WYql1l0lNtxtt5jPoGTQVz7nY9Mjt6cAVRgGrWCP+Q4cNY2uxdo/6FB54GbaSOPrIRQeT3w2FapBHmRCXBH1gVdaqQhWMNZwmv8wWPgy9aMb6XkgOVVjgRmGhCLMX+pLyqwfxLaHoVu8H9wlyNHOQ3Sq05xTLulV8k/Kut9xbCNZTqA7y7HQxNHlmJ+0AaHenqKPJG843M9+Fs/bqvco7w8vyJ/zinaXjnfnKKg4FY1KADCYYNIi8qFFq2E/LkxOxhrWEowcdgYlzPNybk7GVa36yuIKbikttIWGjN/ZpH/VRXQjBumDN5jZHDbzUuMHOH81e5xfuwi6Lvuc8vpspmRHr1FFU+mVcNytIUPvYt7KO5AOyRZD7QkPY+WEhVHvHYtIv6j1hfi+9Pmoy/gfn8DTSHzjfBU+xzN/TI6vypeRFHeppae8rfQZce9Bo0W+nviLu30Dq7Wci4zFWaSqfO9Y1GmSsdWu2Ez2vfIeXDc6SR3Cr4blVUVG/KgqdvfcxkKhslHdiBKLJublegzjRYdY6ClBIjbmEYce56BU8H+XPi4vteCYpsdwPkoLxCvvkiUL22L2lyKCEJgbGsKnGAPdXiid3Em6pSvQMDr0QYajh+Jihio9LuvbDMKFb7k8h1Ej5u2q92W3h5yV4bt6exfLbNcP3z8eSxYr8ok+J6RPjlg7LMEYi1TYRxPC7cohs7ZUrBnYS4u2BSXxeRqVU5Sl1dxm0oVyzmA4bZ6MATQYk+KGJjYG1Aj+f9GWZ+8lVkim7ZFH+ptscEK0tn94Gb2tdSpTR545Mds60n7WfjhHWW2u3AmbIak5pmZSS6LqEL1LuLrrrQwBkFsMoJBpc7HyHo9GVT5vng6QehZUJs+JqKb0OA+1XY0/OlOayoAgsP1RAm7yqu3tYJesOw0gIAcuegtO4q1QviDNRTU07A8xUMfbDWBBb9aXzUBs+pV1k9Dz+LpsLczjBam5mzdvFvjwfr/Df2dxjRl7Nfb4dp/ZdpaNtV4oAXJQ0qLirgysEAfcotAcDmQSk8X9EbCNqYHQnGUcPptRpFJEm44XHtCOigwh9dxQzd2iPoeoGH4O8WF4k734IwnPYAe+s3dEIsv6M8&quot;,&quot;type&quot;:&quot;ACCELEROMETERS&quot;,&quot;version&quot;:1618262832786}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="047FB9CCBD3C7717F4453741B5138DDD" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/badge/speechratio" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="content-type" />
+                <option name="value" value="text/html" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="dataset_id" />
+                <option name="value" value="Nokia3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataFrom" />
+                <option name="value" value="1619553566101" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataTo" />
+                <option name="value" value="1619553615896" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="minute" />
+                <option name="value" value="5" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;data&quot;:&quot;m/j348/+Jwm4yiz3Qw6JckYwTIifTCPI4D0tWTq68Q9r1EWYH4ZfbjEtKXnnM06o++lasq1uT0TjzBmOMB7DNr+/RloyyXbbstr7wWXiYKw3/A2hJJ6Qf+DbKL7u/FrjYXoAcgtZNVOcpMQ5+HpCv+1MuAmpuhCwf9QF3ZRN90owf7WJksfls0l1xyIezQ35YscXZo5SbOEFkuGVAv8wydeg23FQQS5CaRtRB1f3shZsihbk1rHek2Bdv8YsbeAE0E/Bgw1FDNMDjZX7SuYbF7udCOajjQJVlURvR7WYql1l0lNtxtt5jPoGTQVz7nY9Mjt6cAVRgGrWCP+Q4cNY2uxdo/6FB54GbaSOPrIRQeT3w2FapBHmRCXBH1gVdaqQhWMNZwmv8wWPgy9aMb6XkgOVVjgRmGhCLMX+pLyqwfxLaHoVu8H9wlyNHOQ3Sq05xTLulV8k/Kut9xbCNZTqA7y7HQxNHlmJ+0AaHenqKPJG843M9+Fs/bqvco7w8vyJ/zinaXjnfnKKg4FY1KADCYYNIi8qFFq2E/LkxOxhrWEowcdgYlzPNybk7GVa36yuIKbikttIWGjN/ZpH/VRXQjBumDN5jZHDbzUuMHOH81e5xfuwi6Lvuc8vpspmRHr1FFU+mVcNytIUPvYt7KO5AOyRZD7QkPY+WEhVHvHYtIv6j1hfi+9Pmoy/gfn8DTSHzjfBU+xzN/TI6vypeRFHeppae8rfQZce9Bo0W+nviLu30Dq7Wci4zFWaSqfO9Y1GmSsdWu2Ez2vfIeXDc6SR3Cr4blVUVG/KgqdvfcxkKhslHdiBKLJublegzjRYdY6ClBIjbmEYce56BU8H+XPi4vteCYpsdwPkoLxCvvkiUL22L2lyKCEJgbGsKnGAPdXiid3Em6pSvQMDr0QYajh+Jihio9LuvbDMKFb7k8h1Ej5u2q92W3h5yV4bt6exfLbNcP3z8eSxYr8ok+J6RPjlg7LMEYi1TYRxPC7cohs7ZUrBnYS4u2BSXxeRqVU5Sl1dxm0oVyzmA4bZ6MATQYk+KGJjYG1Aj+f9GWZ+8lVkim7ZFH+ptscEK0tn94Gb2tdSpTR545Mds60n7WfjhHWW2u3AmbIak5pmZSS6LqEL1LuLrrrQwBkFsMoJBpc7HyHo9GVT5vng6QehZUJs+JqKb0OA+1XY0/OlOayoAgsP1RAm7yqu3tYJesOw0gIAcuegtO4q1QviDNRTU07A8xUMfbDWBBb9aXzUBs+pV1k9Dz+LpsLczjBam5mzdvFvjwfr/Df2dxjRl7Nfb4dp/ZdpaNtV4oAXJQ0qLirgysEAfcotAcDmQSk8X9EbCNqYHQnGUcPptRpFJEm44XHtCOigwh9dxQzd2iPoeoGH4O8WF4k734IwnPYAe+s3dEIsv6M8&quot;,&quot;type&quot;:&quot;ACCELEROMETERS&quot;,&quot;version&quot;:1618262832786}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="047FB9CCBD3C7717F4453741B5138DDD" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/badge/speechratio" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="content-type" />
+                <option name="value" value="text/html" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="dataset_id" />
+                <option name="value" value="Nokia3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataFrom" />
+                <option name="value" value="1619555735600" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataTo" />
+                <option name="value" value="1619555737712" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="minute" />
+                <option name="value" value="5" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;data&quot;:&quot;m/j348/+Jwm4yiz3Qw6JckYwTIifTCPI4D0tWTq68Q9r1EWYH4ZfbjEtKXnnM06o++lasq1uT0TjzBmOMB7DNr+/RloyyXbbstr7wWXiYKw3/A2hJJ6Qf+DbKL7u/FrjYXoAcgtZNVOcpMQ5+HpCv+1MuAmpuhCwf9QF3ZRN90owf7WJksfls0l1xyIezQ35YscXZo5SbOEFkuGVAv8wydeg23FQQS5CaRtRB1f3shZsihbk1rHek2Bdv8YsbeAE0E/Bgw1FDNMDjZX7SuYbF7udCOajjQJVlURvR7WYql1l0lNtxtt5jPoGTQVz7nY9Mjt6cAVRgGrWCP+Q4cNY2uxdo/6FB54GbaSOPrIRQeT3w2FapBHmRCXBH1gVdaqQhWMNZwmv8wWPgy9aMb6XkgOVVjgRmGhCLMX+pLyqwfxLaHoVu8H9wlyNHOQ3Sq05xTLulV8k/Kut9xbCNZTqA7y7HQxNHlmJ+0AaHenqKPJG843M9+Fs/bqvco7w8vyJ/zinaXjnfnKKg4FY1KADCYYNIi8qFFq2E/LkxOxhrWEowcdgYlzPNybk7GVa36yuIKbikttIWGjN/ZpH/VRXQjBumDN5jZHDbzUuMHOH81e5xfuwi6Lvuc8vpspmRHr1FFU+mVcNytIUPvYt7KO5AOyRZD7QkPY+WEhVHvHYtIv6j1hfi+9Pmoy/gfn8DTSHzjfBU+xzN/TI6vypeRFHeppae8rfQZce9Bo0W+nviLu30Dq7Wci4zFWaSqfO9Y1GmSsdWu2Ez2vfIeXDc6SR3Cr4blVUVG/KgqdvfcxkKhslHdiBKLJublegzjRYdY6ClBIjbmEYce56BU8H+XPi4vteCYpsdwPkoLxCvvkiUL22L2lyKCEJgbGsKnGAPdXiid3Em6pSvQMDr0QYajh+Jihio9LuvbDMKFb7k8h1Ej5u2q92W3h5yV4bt6exfLbNcP3z8eSxYr8ok+J6RPjlg7LMEYi1TYRxPC7cohs7ZUrBnYS4u2BSXxeRqVU5Sl1dxm0oVyzmA4bZ6MATQYk+KGJjYG1Aj+f9GWZ+8lVkim7ZFH+ptscEK0tn94Gb2tdSpTR545Mds60n7WfjhHWW2u3AmbIak5pmZSS6LqEL1LuLrrrQwBkFsMoJBpc7HyHo9GVT5vng6QehZUJs+JqKb0OA+1XY0/OlOayoAgsP1RAm7yqu3tYJesOw0gIAcuegtO4q1QviDNRTU07A8xUMfbDWBBb9aXzUBs+pV1k9Dz+LpsLczjBam5mzdvFvjwfr/Df2dxjRl7Nfb4dp/ZdpaNtV4oAXJQ0qLirgysEAfcotAcDmQSk8X9EbCNqYHQnGUcPptRpFJEm44XHtCOigwh9dxQzd2iPoeoGH4O8WF4k734IwnPYAe+s3dEIsv6M8&quot;,&quot;type&quot;:&quot;ACCELEROMETERS&quot;,&quot;version&quot;:1618262832786}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="047FB9CCBD3C7717F4453741B5138DDD" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/badge/speechratio" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="content-type" />
+                <option name="value" value="text/html" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="dataset_id" />
+                <option name="value" value="Nokia3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataFrom" />
+                <option name="value" value="1619555735600" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataTo" />
+                <option name="value" value="1619555737712" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="minute" />
+                <option name="value" value="10" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;data&quot;:&quot;m/j348/+Jwm4yiz3Qw6JckYwTIifTCPI4D0tWTq68Q9r1EWYH4ZfbjEtKXnnM06o++lasq1uT0TjzBmOMB7DNr+/RloyyXbbstr7wWXiYKw3/A2hJJ6Qf+DbKL7u/FrjYXoAcgtZNVOcpMQ5+HpCv+1MuAmpuhCwf9QF3ZRN90owf7WJksfls0l1xyIezQ35YscXZo5SbOEFkuGVAv8wydeg23FQQS5CaRtRB1f3shZsihbk1rHek2Bdv8YsbeAE0E/Bgw1FDNMDjZX7SuYbF7udCOajjQJVlURvR7WYql1l0lNtxtt5jPoGTQVz7nY9Mjt6cAVRgGrWCP+Q4cNY2uxdo/6FB54GbaSOPrIRQeT3w2FapBHmRCXBH1gVdaqQhWMNZwmv8wWPgy9aMb6XkgOVVjgRmGhCLMX+pLyqwfxLaHoVu8H9wlyNHOQ3Sq05xTLulV8k/Kut9xbCNZTqA7y7HQxNHlmJ+0AaHenqKPJG843M9+Fs/bqvco7w8vyJ/zinaXjnfnKKg4FY1KADCYYNIi8qFFq2E/LkxOxhrWEowcdgYlzPNybk7GVa36yuIKbikttIWGjN/ZpH/VRXQjBumDN5jZHDbzUuMHOH81e5xfuwi6Lvuc8vpspmRHr1FFU+mVcNytIUPvYt7KO5AOyRZD7QkPY+WEhVHvHYtIv6j1hfi+9Pmoy/gfn8DTSHzjfBU+xzN/TI6vypeRFHeppae8rfQZce9Bo0W+nviLu30Dq7Wci4zFWaSqfO9Y1GmSsdWu2Ez2vfIeXDc6SR3Cr4blVUVG/KgqdvfcxkKhslHdiBKLJublegzjRYdY6ClBIjbmEYce56BU8H+XPi4vteCYpsdwPkoLxCvvkiUL22L2lyKCEJgbGsKnGAPdXiid3Em6pSvQMDr0QYajh+Jihio9LuvbDMKFb7k8h1Ej5u2q92W3h5yV4bt6exfLbNcP3z8eSxYr8ok+J6RPjlg7LMEYi1TYRxPC7cohs7ZUrBnYS4u2BSXxeRqVU5Sl1dxm0oVyzmA4bZ6MATQYk+KGJjYG1Aj+f9GWZ+8lVkim7ZFH+ptscEK0tn94Gb2tdSpTR545Mds60n7WfjhHWW2u3AmbIak5pmZSS6LqEL1LuLrrrQwBkFsMoJBpc7HyHo9GVT5vng6QehZUJs+JqKb0OA+1XY0/OlOayoAgsP1RAm7yqu3tYJesOw0gIAcuegtO4q1QviDNRTU07A8xUMfbDWBBb9aXzUBs+pV1k9Dz+LpsLczjBam5mzdvFvjwfr/Df2dxjRl7Nfb4dp/ZdpaNtV4oAXJQ0qLirgysEAfcotAcDmQSk8X9EbCNqYHQnGUcPptRpFJEm44XHtCOigwh9dxQzd2iPoeoGH4O8WF4k734IwnPYAe+s3dEIsv6M8&quot;,&quot;type&quot;:&quot;ACCELEROMETERS&quot;,&quot;version&quot;:1618262832786}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="047FB9CCBD3C7717F4453741B5138DDD" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/badge/badgemovementratio" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="content-type" />
+                <option name="value" value="text/html" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="dataset_id" />
+                <option name="value" value="Nokia3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataFrom" />
+                <option name="value" value="1619555735600" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataTo" />
+                <option name="value" value="1619555737712" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;data&quot;:&quot;m/j348/+Jwm4yiz3Qw6JckYwTIifTCPI4D0tWTq68Q9r1EWYH4ZfbjEtKXnnM06o++lasq1uT0TjzBmOMB7DNr+/RloyyXbbstr7wWXiYKw3/A2hJJ6Qf+DbKL7u/FrjYXoAcgtZNVOcpMQ5+HpCv+1MuAmpuhCwf9QF3ZRN90owf7WJksfls0l1xyIezQ35YscXZo5SbOEFkuGVAv8wydeg23FQQS5CaRtRB1f3shZsihbk1rHek2Bdv8YsbeAE0E/Bgw1FDNMDjZX7SuYbF7udCOajjQJVlURvR7WYql1l0lNtxtt5jPoGTQVz7nY9Mjt6cAVRgGrWCP+Q4cNY2uxdo/6FB54GbaSOPrIRQeT3w2FapBHmRCXBH1gVdaqQhWMNZwmv8wWPgy9aMb6XkgOVVjgRmGhCLMX+pLyqwfxLaHoVu8H9wlyNHOQ3Sq05xTLulV8k/Kut9xbCNZTqA7y7HQxNHlmJ+0AaHenqKPJG843M9+Fs/bqvco7w8vyJ/zinaXjnfnKKg4FY1KADCYYNIi8qFFq2E/LkxOxhrWEowcdgYlzPNybk7GVa36yuIKbikttIWGjN/ZpH/VRXQjBumDN5jZHDbzUuMHOH81e5xfuwi6Lvuc8vpspmRHr1FFU+mVcNytIUPvYt7KO5AOyRZD7QkPY+WEhVHvHYtIv6j1hfi+9Pmoy/gfn8DTSHzjfBU+xzN/TI6vypeRFHeppae8rfQZce9Bo0W+nviLu30Dq7Wci4zFWaSqfO9Y1GmSsdWu2Ez2vfIeXDc6SR3Cr4blVUVG/KgqdvfcxkKhslHdiBKLJublegzjRYdY6ClBIjbmEYce56BU8H+XPi4vteCYpsdwPkoLxCvvkiUL22L2lyKCEJgbGsKnGAPdXiid3Em6pSvQMDr0QYajh+Jihio9LuvbDMKFb7k8h1Ej5u2q92W3h5yV4bt6exfLbNcP3z8eSxYr8ok+J6RPjlg7LMEYi1TYRxPC7cohs7ZUrBnYS4u2BSXxeRqVU5Sl1dxm0oVyzmA4bZ6MATQYk+KGJjYG1Aj+f9GWZ+8lVkim7ZFH+ptscEK0tn94Gb2tdSpTR545Mds60n7WfjhHWW2u3AmbIak5pmZSS6LqEL1LuLrrrQwBkFsMoJBpc7HyHo9GVT5vng6QehZUJs+JqKb0OA+1XY0/OlOayoAgsP1RAm7yqu3tYJesOw0gIAcuegtO4q1QviDNRTU07A8xUMfbDWBBb9aXzUBs+pV1k9Dz+LpsLczjBam5mzdvFvjwfr/Df2dxjRl7Nfb4dp/ZdpaNtV4oAXJQ0qLirgysEAfcotAcDmQSk8X9EbCNqYHQnGUcPptRpFJEm44XHtCOigwh9dxQzd2iPoeoGH4O8WF4k734IwnPYAe+s3dEIsv6M8&quot;,&quot;type&quot;:&quot;ACCELEROMETERS&quot;,&quot;version&quot;:1618262832786}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="047FB9CCBD3C7717F4453741B5138DDD" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/badge/badgespeechratio" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="content-type" />
+                <option name="value" value="text/html" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="dataset_id" />
+                <option name="value" value="Nokia3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataFrom" />
+                <option name="value" value="1619553107758" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataTo" />
+                <option name="value" value="1619553616316" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;data&quot;:&quot;m/j348/+Jwm4yiz3Qw6JckYwTIifTCPI4D0tWTq68Q9r1EWYH4ZfbjEtKXnnM06o++lasq1uT0TjzBmOMB7DNr+/RloyyXbbstr7wWXiYKw3/A2hJJ6Qf+DbKL7u/FrjYXoAcgtZNVOcpMQ5+HpCv+1MuAmpuhCwf9QF3ZRN90owf7WJksfls0l1xyIezQ35YscXZo5SbOEFkuGVAv8wydeg23FQQS5CaRtRB1f3shZsihbk1rHek2Bdv8YsbeAE0E/Bgw1FDNMDjZX7SuYbF7udCOajjQJVlURvR7WYql1l0lNtxtt5jPoGTQVz7nY9Mjt6cAVRgGrWCP+Q4cNY2uxdo/6FB54GbaSOPrIRQeT3w2FapBHmRCXBH1gVdaqQhWMNZwmv8wWPgy9aMb6XkgOVVjgRmGhCLMX+pLyqwfxLaHoVu8H9wlyNHOQ3Sq05xTLulV8k/Kut9xbCNZTqA7y7HQxNHlmJ+0AaHenqKPJG843M9+Fs/bqvco7w8vyJ/zinaXjnfnKKg4FY1KADCYYNIi8qFFq2E/LkxOxhrWEowcdgYlzPNybk7GVa36yuIKbikttIWGjN/ZpH/VRXQjBumDN5jZHDbzUuMHOH81e5xfuwi6Lvuc8vpspmRHr1FFU+mVcNytIUPvYt7KO5AOyRZD7QkPY+WEhVHvHYtIv6j1hfi+9Pmoy/gfn8DTSHzjfBU+xzN/TI6vypeRFHeppae8rfQZce9Bo0W+nviLu30Dq7Wci4zFWaSqfO9Y1GmSsdWu2Ez2vfIeXDc6SR3Cr4blVUVG/KgqdvfcxkKhslHdiBKLJublegzjRYdY6ClBIjbmEYce56BU8H+XPi4vteCYpsdwPkoLxCvvkiUL22L2lyKCEJgbGsKnGAPdXiid3Em6pSvQMDr0QYajh+Jihio9LuvbDMKFb7k8h1Ej5u2q92W3h5yV4bt6exfLbNcP3z8eSxYr8ok+J6RPjlg7LMEYi1TYRxPC7cohs7ZUrBnYS4u2BSXxeRqVU5Sl1dxm0oVyzmA4bZ6MATQYk+KGJjYG1Aj+f9GWZ+8lVkim7ZFH+ptscEK0tn94Gb2tdSpTR545Mds60n7WfjhHWW2u3AmbIak5pmZSS6LqEL1LuLrrrQwBkFsMoJBpc7HyHo9GVT5vng6QehZUJs+JqKb0OA+1XY0/OlOayoAgsP1RAm7yqu3tYJesOw0gIAcuegtO4q1QviDNRTU07A8xUMfbDWBBb9aXzUBs+pV1k9Dz+LpsLczjBam5mzdvFvjwfr/Df2dxjRl7Nfb4dp/ZdpaNtV4oAXJQ0qLirgysEAfcotAcDmQSk8X9EbCNqYHQnGUcPptRpFJEm44XHtCOigwh9dxQzd2iPoeoGH4O8WF4k734IwnPYAe+s3dEIsv6M8&quot;,&quot;type&quot;:&quot;ACCELEROMETERS&quot;,&quot;version&quot;:1618262832786}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="047FB9CCBD3C7717F4453741B5138DDD" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/badge/badgespeechratio" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="content-type" />
+                <option name="value" value="text/html" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="dataset_id" />
+                <option name="value" value="Nokia3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataFrom" />
+                <option name="value" value="1619553000577" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataTo" />
+                <option name="value" value="1619553616316" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;data&quot;:&quot;m/j348/+Jwm4yiz3Qw6JckYwTIifTCPI4D0tWTq68Q9r1EWYH4ZfbjEtKXnnM06o++lasq1uT0TjzBmOMB7DNr+/RloyyXbbstr7wWXiYKw3/A2hJJ6Qf+DbKL7u/FrjYXoAcgtZNVOcpMQ5+HpCv+1MuAmpuhCwf9QF3ZRN90owf7WJksfls0l1xyIezQ35YscXZo5SbOEFkuGVAv8wydeg23FQQS5CaRtRB1f3shZsihbk1rHek2Bdv8YsbeAE0E/Bgw1FDNMDjZX7SuYbF7udCOajjQJVlURvR7WYql1l0lNtxtt5jPoGTQVz7nY9Mjt6cAVRgGrWCP+Q4cNY2uxdo/6FB54GbaSOPrIRQeT3w2FapBHmRCXBH1gVdaqQhWMNZwmv8wWPgy9aMb6XkgOVVjgRmGhCLMX+pLyqwfxLaHoVu8H9wlyNHOQ3Sq05xTLulV8k/Kut9xbCNZTqA7y7HQxNHlmJ+0AaHenqKPJG843M9+Fs/bqvco7w8vyJ/zinaXjnfnKKg4FY1KADCYYNIi8qFFq2E/LkxOxhrWEowcdgYlzPNybk7GVa36yuIKbikttIWGjN/ZpH/VRXQjBumDN5jZHDbzUuMHOH81e5xfuwi6Lvuc8vpspmRHr1FFU+mVcNytIUPvYt7KO5AOyRZD7QkPY+WEhVHvHYtIv6j1hfi+9Pmoy/gfn8DTSHzjfBU+xzN/TI6vypeRFHeppae8rfQZce9Bo0W+nviLu30Dq7Wci4zFWaSqfO9Y1GmSsdWu2Ez2vfIeXDc6SR3Cr4blVUVG/KgqdvfcxkKhslHdiBKLJublegzjRYdY6ClBIjbmEYce56BU8H+XPi4vteCYpsdwPkoLxCvvkiUL22L2lyKCEJgbGsKnGAPdXiid3Em6pSvQMDr0QYajh+Jihio9LuvbDMKFb7k8h1Ej5u2q92W3h5yV4bt6exfLbNcP3z8eSxYr8ok+J6RPjlg7LMEYi1TYRxPC7cohs7ZUrBnYS4u2BSXxeRqVU5Sl1dxm0oVyzmA4bZ6MATQYk+KGJjYG1Aj+f9GWZ+8lVkim7ZFH+ptscEK0tn94Gb2tdSpTR545Mds60n7WfjhHWW2u3AmbIak5pmZSS6LqEL1LuLrrrQwBkFsMoJBpc7HyHo9GVT5vng6QehZUJs+JqKb0OA+1XY0/OlOayoAgsP1RAm7yqu3tYJesOw0gIAcuegtO4q1QviDNRTU07A8xUMfbDWBBb9aXzUBs+pV1k9Dz+LpsLczjBam5mzdvFvjwfr/Df2dxjRl7Nfb4dp/ZdpaNtV4oAXJQ0qLirgysEAfcotAcDmQSk8X9EbCNqYHQnGUcPptRpFJEm44XHtCOigwh9dxQzd2iPoeoGH4O8WF4k734IwnPYAe+s3dEIsv6M8&quot;,&quot;type&quot;:&quot;ACCELEROMETERS&quot;,&quot;version&quot;:1618262832786}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="047FB9CCBD3C7717F4453741B5138DDD" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/badge/speechratio" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="content-type" />
+                <option name="value" value="text/html" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="dataset_id" />
+                <option name="value" value="Nokia3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataFrom" />
+                <option name="value" value="1619553000577" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataTo" />
+                <option name="value" value="1619553616316" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="minute" />
+                <option name="value" value="5" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;data&quot;:&quot;m/j348/+Jwm4yiz3Qw6JckYwTIifTCPI4D0tWTq68Q9r1EWYH4ZfbjEtKXnnM06o++lasq1uT0TjzBmOMB7DNr+/RloyyXbbstr7wWXiYKw3/A2hJJ6Qf+DbKL7u/FrjYXoAcgtZNVOcpMQ5+HpCv+1MuAmpuhCwf9QF3ZRN90owf7WJksfls0l1xyIezQ35YscXZo5SbOEFkuGVAv8wydeg23FQQS5CaRtRB1f3shZsihbk1rHek2Bdv8YsbeAE0E/Bgw1FDNMDjZX7SuYbF7udCOajjQJVlURvR7WYql1l0lNtxtt5jPoGTQVz7nY9Mjt6cAVRgGrWCP+Q4cNY2uxdo/6FB54GbaSOPrIRQeT3w2FapBHmRCXBH1gVdaqQhWMNZwmv8wWPgy9aMb6XkgOVVjgRmGhCLMX+pLyqwfxLaHoVu8H9wlyNHOQ3Sq05xTLulV8k/Kut9xbCNZTqA7y7HQxNHlmJ+0AaHenqKPJG843M9+Fs/bqvco7w8vyJ/zinaXjnfnKKg4FY1KADCYYNIi8qFFq2E/LkxOxhrWEowcdgYlzPNybk7GVa36yuIKbikttIWGjN/ZpH/VRXQjBumDN5jZHDbzUuMHOH81e5xfuwi6Lvuc8vpspmRHr1FFU+mVcNytIUPvYt7KO5AOyRZD7QkPY+WEhVHvHYtIv6j1hfi+9Pmoy/gfn8DTSHzjfBU+xzN/TI6vypeRFHeppae8rfQZce9Bo0W+nviLu30Dq7Wci4zFWaSqfO9Y1GmSsdWu2Ez2vfIeXDc6SR3Cr4blVUVG/KgqdvfcxkKhslHdiBKLJublegzjRYdY6ClBIjbmEYce56BU8H+XPi4vteCYpsdwPkoLxCvvkiUL22L2lyKCEJgbGsKnGAPdXiid3Em6pSvQMDr0QYajh+Jihio9LuvbDMKFb7k8h1Ej5u2q92W3h5yV4bt6exfLbNcP3z8eSxYr8ok+J6RPjlg7LMEYi1TYRxPC7cohs7ZUrBnYS4u2BSXxeRqVU5Sl1dxm0oVyzmA4bZ6MATQYk+KGJjYG1Aj+f9GWZ+8lVkim7ZFH+ptscEK0tn94Gb2tdSpTR545Mds60n7WfjhHWW2u3AmbIak5pmZSS6LqEL1LuLrrrQwBkFsMoJBpc7HyHo9GVT5vng6QehZUJs+JqKb0OA+1XY0/OlOayoAgsP1RAm7yqu3tYJesOw0gIAcuegtO4q1QviDNRTU07A8xUMfbDWBBb9aXzUBs+pV1k9Dz+LpsLczjBam5mzdvFvjwfr/Df2dxjRl7Nfb4dp/ZdpaNtV4oAXJQ0qLirgysEAfcotAcDmQSk8X9EbCNqYHQnGUcPptRpFJEm44XHtCOigwh9dxQzd2iPoeoGH4O8WF4k734IwnPYAe+s3dEIsv6M8&quot;,&quot;type&quot;:&quot;ACCELEROMETERS&quot;,&quot;version&quot;:1618262832786}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="047FB9CCBD3C7717F4453741B5138DDD" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/badge/speechratio" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="content-type" />
+                <option name="value" value="text/html" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="dataset_id" />
+                <option name="value" value="Nokia3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataFrom" />
+                <option name="value" value="1619553000577" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataTo" />
+                <option name="value" value="1619553616316" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="minute" />
+                <option name="value" value="10" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;data&quot;:&quot;m/j348/+Jwm4yiz3Qw6JckYwTIifTCPI4D0tWTq68Q9r1EWYH4ZfbjEtKXnnM06o++lasq1uT0TjzBmOMB7DNr+/RloyyXbbstr7wWXiYKw3/A2hJJ6Qf+DbKL7u/FrjYXoAcgtZNVOcpMQ5+HpCv+1MuAmpuhCwf9QF3ZRN90owf7WJksfls0l1xyIezQ35YscXZo5SbOEFkuGVAv8wydeg23FQQS5CaRtRB1f3shZsihbk1rHek2Bdv8YsbeAE0E/Bgw1FDNMDjZX7SuYbF7udCOajjQJVlURvR7WYql1l0lNtxtt5jPoGTQVz7nY9Mjt6cAVRgGrWCP+Q4cNY2uxdo/6FB54GbaSOPrIRQeT3w2FapBHmRCXBH1gVdaqQhWMNZwmv8wWPgy9aMb6XkgOVVjgRmGhCLMX+pLyqwfxLaHoVu8H9wlyNHOQ3Sq05xTLulV8k/Kut9xbCNZTqA7y7HQxNHlmJ+0AaHenqKPJG843M9+Fs/bqvco7w8vyJ/zinaXjnfnKKg4FY1KADCYYNIi8qFFq2E/LkxOxhrWEowcdgYlzPNybk7GVa36yuIKbikttIWGjN/ZpH/VRXQjBumDN5jZHDbzUuMHOH81e5xfuwi6Lvuc8vpspmRHr1FFU+mVcNytIUPvYt7KO5AOyRZD7QkPY+WEhVHvHYtIv6j1hfi+9Pmoy/gfn8DTSHzjfBU+xzN/TI6vypeRFHeppae8rfQZce9Bo0W+nviLu30Dq7Wci4zFWaSqfO9Y1GmSsdWu2Ez2vfIeXDc6SR3Cr4blVUVG/KgqdvfcxkKhslHdiBKLJublegzjRYdY6ClBIjbmEYce56BU8H+XPi4vteCYpsdwPkoLxCvvkiUL22L2lyKCEJgbGsKnGAPdXiid3Em6pSvQMDr0QYajh+Jihio9LuvbDMKFb7k8h1Ej5u2q92W3h5yV4bt6exfLbNcP3z8eSxYr8ok+J6RPjlg7LMEYi1TYRxPC7cohs7ZUrBnYS4u2BSXxeRqVU5Sl1dxm0oVyzmA4bZ6MATQYk+KGJjYG1Aj+f9GWZ+8lVkim7ZFH+ptscEK0tn94Gb2tdSpTR545Mds60n7WfjhHWW2u3AmbIak5pmZSS6LqEL1LuLrrrQwBkFsMoJBpc7HyHo9GVT5vng6QehZUJs+JqKb0OA+1XY0/OlOayoAgsP1RAm7yqu3tYJesOw0gIAcuegtO4q1QviDNRTU07A8xUMfbDWBBb9aXzUBs+pV1k9Dz+LpsLczjBam5mzdvFvjwfr/Df2dxjRl7Nfb4dp/ZdpaNtV4oAXJQ0qLirgysEAfcotAcDmQSk8X9EbCNqYHQnGUcPptRpFJEm44XHtCOigwh9dxQzd2iPoeoGH4O8WF4k734IwnPYAe+s3dEIsv6M8&quot;,&quot;type&quot;:&quot;ACCELEROMETERS&quot;,&quot;version&quot;:1618262832786}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="047FB9CCBD3C7717F4453741B5138DDD" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/badge/speechratio" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="content-type" />
+                <option name="value" value="text/html" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="dataset_id" />
+                <option name="value" value="Nokia3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataFrom" />
+                <option name="value" value="1619553615896" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataTo" />
+                <option name="value" value="1619553001366" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="minute" />
+                <option name="value" value="60" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;data&quot;:&quot;m/j348/+Jwm4yiz3Qw6JckYwTIifTCPI4D0tWTq68Q9r1EWYH4ZfbjEtKXnnM06o++lasq1uT0TjzBmOMB7DNr+/RloyyXbbstr7wWXiYKw3/A2hJJ6Qf+DbKL7u/FrjYXoAcgtZNVOcpMQ5+HpCv+1MuAmpuhCwf9QF3ZRN90owf7WJksfls0l1xyIezQ35YscXZo5SbOEFkuGVAv8wydeg23FQQS5CaRtRB1f3shZsihbk1rHek2Bdv8YsbeAE0E/Bgw1FDNMDjZX7SuYbF7udCOajjQJVlURvR7WYql1l0lNtxtt5jPoGTQVz7nY9Mjt6cAVRgGrWCP+Q4cNY2uxdo/6FB54GbaSOPrIRQeT3w2FapBHmRCXBH1gVdaqQhWMNZwmv8wWPgy9aMb6XkgOVVjgRmGhCLMX+pLyqwfxLaHoVu8H9wlyNHOQ3Sq05xTLulV8k/Kut9xbCNZTqA7y7HQxNHlmJ+0AaHenqKPJG843M9+Fs/bqvco7w8vyJ/zinaXjnfnKKg4FY1KADCYYNIi8qFFq2E/LkxOxhrWEowcdgYlzPNybk7GVa36yuIKbikttIWGjN/ZpH/VRXQjBumDN5jZHDbzUuMHOH81e5xfuwi6Lvuc8vpspmRHr1FFU+mVcNytIUPvYt7KO5AOyRZD7QkPY+WEhVHvHYtIv6j1hfi+9Pmoy/gfn8DTSHzjfBU+xzN/TI6vypeRFHeppae8rfQZce9Bo0W+nviLu30Dq7Wci4zFWaSqfO9Y1GmSsdWu2Ez2vfIeXDc6SR3Cr4blVUVG/KgqdvfcxkKhslHdiBKLJublegzjRYdY6ClBIjbmEYce56BU8H+XPi4vteCYpsdwPkoLxCvvkiUL22L2lyKCEJgbGsKnGAPdXiid3Em6pSvQMDr0QYajh+Jihio9LuvbDMKFb7k8h1Ej5u2q92W3h5yV4bt6exfLbNcP3z8eSxYr8ok+J6RPjlg7LMEYi1TYRxPC7cohs7ZUrBnYS4u2BSXxeRqVU5Sl1dxm0oVyzmA4bZ6MATQYk+KGJjYG1Aj+f9GWZ+8lVkim7ZFH+ptscEK0tn94Gb2tdSpTR545Mds60n7WfjhHWW2u3AmbIak5pmZSS6LqEL1LuLrrrQwBkFsMoJBpc7HyHo9GVT5vng6QehZUJs+JqKb0OA+1XY0/OlOayoAgsP1RAm7yqu3tYJesOw0gIAcuegtO4q1QviDNRTU07A8xUMfbDWBBb9aXzUBs+pV1k9Dz+LpsLczjBam5mzdvFvjwfr/Df2dxjRl7Nfb4dp/ZdpaNtV4oAXJQ0qLirgysEAfcotAcDmQSk8X9EbCNqYHQnGUcPptRpFJEm44XHtCOigwh9dxQzd2iPoeoGH4O8WF4k734IwnPYAe+s3dEIsv6M8&quot;,&quot;type&quot;:&quot;ACCELEROMETERS&quot;,&quot;version&quot;:1618262832786}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="047FB9CCBD3C7717F4453741B5138DDD" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/badge/speechratio" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="content-type" />
+                <option name="value" value="text/html" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="dataset_id" />
+                <option name="value" value="Nokia3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataFrom" />
+                <option name="value" value="1619553001366" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataTo" />
+                <option name="value" value="1619553615896" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="minute" />
+                <option name="value" value="60" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;data&quot;:&quot;m/j348/+Jwm4yiz3Qw6JckYwTIifTCPI4D0tWTq68Q9r1EWYH4ZfbjEtKXnnM06o++lasq1uT0TjzBmOMB7DNr+/RloyyXbbstr7wWXiYKw3/A2hJJ6Qf+DbKL7u/FrjYXoAcgtZNVOcpMQ5+HpCv+1MuAmpuhCwf9QF3ZRN90owf7WJksfls0l1xyIezQ35YscXZo5SbOEFkuGVAv8wydeg23FQQS5CaRtRB1f3shZsihbk1rHek2Bdv8YsbeAE0E/Bgw1FDNMDjZX7SuYbF7udCOajjQJVlURvR7WYql1l0lNtxtt5jPoGTQVz7nY9Mjt6cAVRgGrWCP+Q4cNY2uxdo/6FB54GbaSOPrIRQeT3w2FapBHmRCXBH1gVdaqQhWMNZwmv8wWPgy9aMb6XkgOVVjgRmGhCLMX+pLyqwfxLaHoVu8H9wlyNHOQ3Sq05xTLulV8k/Kut9xbCNZTqA7y7HQxNHlmJ+0AaHenqKPJG843M9+Fs/bqvco7w8vyJ/zinaXjnfnKKg4FY1KADCYYNIi8qFFq2E/LkxOxhrWEowcdgYlzPNybk7GVa36yuIKbikttIWGjN/ZpH/VRXQjBumDN5jZHDbzUuMHOH81e5xfuwi6Lvuc8vpspmRHr1FFU+mVcNytIUPvYt7KO5AOyRZD7QkPY+WEhVHvHYtIv6j1hfi+9Pmoy/gfn8DTSHzjfBU+xzN/TI6vypeRFHeppae8rfQZce9Bo0W+nviLu30Dq7Wci4zFWaSqfO9Y1GmSsdWu2Ez2vfIeXDc6SR3Cr4blVUVG/KgqdvfcxkKhslHdiBKLJublegzjRYdY6ClBIjbmEYce56BU8H+XPi4vteCYpsdwPkoLxCvvkiUL22L2lyKCEJgbGsKnGAPdXiid3Em6pSvQMDr0QYajh+Jihio9LuvbDMKFb7k8h1Ej5u2q92W3h5yV4bt6exfLbNcP3z8eSxYr8ok+J6RPjlg7LMEYi1TYRxPC7cohs7ZUrBnYS4u2BSXxeRqVU5Sl1dxm0oVyzmA4bZ6MATQYk+KGJjYG1Aj+f9GWZ+8lVkim7ZFH+ptscEK0tn94Gb2tdSpTR545Mds60n7WfjhHWW2u3AmbIak5pmZSS6LqEL1LuLrrrQwBkFsMoJBpc7HyHo9GVT5vng6QehZUJs+JqKb0OA+1XY0/OlOayoAgsP1RAm7yqu3tYJesOw0gIAcuegtO4q1QviDNRTU07A8xUMfbDWBBb9aXzUBs+pV1k9Dz+LpsLczjBam5mzdvFvjwfr/Df2dxjRl7Nfb4dp/ZdpaNtV4oAXJQ0qLirgysEAfcotAcDmQSk8X9EbCNqYHQnGUcPptRpFJEm44XHtCOigwh9dxQzd2iPoeoGH4O8WF4k734IwnPYAe+s3dEIsv6M8&quot;,&quot;type&quot;:&quot;ACCELEROMETERS&quot;,&quot;version&quot;:1618262832786}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="047FB9CCBD3C7717F4453741B5138DDD" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/badge/activehistory" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="content-type" />
+                <option name="value" value="text/html" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="dataset_id" />
+                <option name="value" value="Nokia3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataFrom" />
+                <option name="value" value="1619553001366" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataTo" />
+                <option name="value" value="1619553615896" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="minute" />
+                <option name="value" value="60" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;data&quot;:&quot;m/j348/+Jwm4yiz3Qw6JckYwTIifTCPI4D0tWTq68Q9r1EWYH4ZfbjEtKXnnM06o++lasq1uT0TjzBmOMB7DNr+/RloyyXbbstr7wWXiYKw3/A2hJJ6Qf+DbKL7u/FrjYXoAcgtZNVOcpMQ5+HpCv+1MuAmpuhCwf9QF3ZRN90owf7WJksfls0l1xyIezQ35YscXZo5SbOEFkuGVAv8wydeg23FQQS5CaRtRB1f3shZsihbk1rHek2Bdv8YsbeAE0E/Bgw1FDNMDjZX7SuYbF7udCOajjQJVlURvR7WYql1l0lNtxtt5jPoGTQVz7nY9Mjt6cAVRgGrWCP+Q4cNY2uxdo/6FB54GbaSOPrIRQeT3w2FapBHmRCXBH1gVdaqQhWMNZwmv8wWPgy9aMb6XkgOVVjgRmGhCLMX+pLyqwfxLaHoVu8H9wlyNHOQ3Sq05xTLulV8k/Kut9xbCNZTqA7y7HQxNHlmJ+0AaHenqKPJG843M9+Fs/bqvco7w8vyJ/zinaXjnfnKKg4FY1KADCYYNIi8qFFq2E/LkxOxhrWEowcdgYlzPNybk7GVa36yuIKbikttIWGjN/ZpH/VRXQjBumDN5jZHDbzUuMHOH81e5xfuwi6Lvuc8vpspmRHr1FFU+mVcNytIUPvYt7KO5AOyRZD7QkPY+WEhVHvHYtIv6j1hfi+9Pmoy/gfn8DTSHzjfBU+xzN/TI6vypeRFHeppae8rfQZce9Bo0W+nviLu30Dq7Wci4zFWaSqfO9Y1GmSsdWu2Ez2vfIeXDc6SR3Cr4blVUVG/KgqdvfcxkKhslHdiBKLJublegzjRYdY6ClBIjbmEYce56BU8H+XPi4vteCYpsdwPkoLxCvvkiUL22L2lyKCEJgbGsKnGAPdXiid3Em6pSvQMDr0QYajh+Jihio9LuvbDMKFb7k8h1Ej5u2q92W3h5yV4bt6exfLbNcP3z8eSxYr8ok+J6RPjlg7LMEYi1TYRxPC7cohs7ZUrBnYS4u2BSXxeRqVU5Sl1dxm0oVyzmA4bZ6MATQYk+KGJjYG1Aj+f9GWZ+8lVkim7ZFH+ptscEK0tn94Gb2tdSpTR545Mds60n7WfjhHWW2u3AmbIak5pmZSS6LqEL1LuLrrrQwBkFsMoJBpc7HyHo9GVT5vng6QehZUJs+JqKb0OA+1XY0/OlOayoAgsP1RAm7yqu3tYJesOw0gIAcuegtO4q1QviDNRTU07A8xUMfbDWBBb9aXzUBs+pV1k9Dz+LpsLczjBam5mzdvFvjwfr/Df2dxjRl7Nfb4dp/ZdpaNtV4oAXJQ0qLirgysEAfcotAcDmQSk8X9EbCNqYHQnGUcPptRpFJEm44XHtCOigwh9dxQzd2iPoeoGH4O8WF4k734IwnPYAe+s3dEIsv6M8&quot;,&quot;type&quot;:&quot;ACCELEROMETERS&quot;,&quot;version&quot;:1618262832786}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="047FB9CCBD3C7717F4453741B5138DDD" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/badge/activehistory" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="content-type" />
+                <option name="value" value="text/html" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="dataset_id" />
+                <option name="value" value="Nokia3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataFrom" />
+                <option name="value" value="1619399438679" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataTo" />
+                <option name="value" value="1619553606223" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="minute" />
+                <option name="value" value="60" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;data&quot;:&quot;m/j348/+Jwm4yiz3Qw6JckYwTIifTCPI4D0tWTq68Q9r1EWYH4ZfbjEtKXnnM06o++lasq1uT0TjzBmOMB7DNr+/RloyyXbbstr7wWXiYKw3/A2hJJ6Qf+DbKL7u/FrjYXoAcgtZNVOcpMQ5+HpCv+1MuAmpuhCwf9QF3ZRN90owf7WJksfls0l1xyIezQ35YscXZo5SbOEFkuGVAv8wydeg23FQQS5CaRtRB1f3shZsihbk1rHek2Bdv8YsbeAE0E/Bgw1FDNMDjZX7SuYbF7udCOajjQJVlURvR7WYql1l0lNtxtt5jPoGTQVz7nY9Mjt6cAVRgGrWCP+Q4cNY2uxdo/6FB54GbaSOPrIRQeT3w2FapBHmRCXBH1gVdaqQhWMNZwmv8wWPgy9aMb6XkgOVVjgRmGhCLMX+pLyqwfxLaHoVu8H9wlyNHOQ3Sq05xTLulV8k/Kut9xbCNZTqA7y7HQxNHlmJ+0AaHenqKPJG843M9+Fs/bqvco7w8vyJ/zinaXjnfnKKg4FY1KADCYYNIi8qFFq2E/LkxOxhrWEowcdgYlzPNybk7GVa36yuIKbikttIWGjN/ZpH/VRXQjBumDN5jZHDbzUuMHOH81e5xfuwi6Lvuc8vpspmRHr1FFU+mVcNytIUPvYt7KO5AOyRZD7QkPY+WEhVHvHYtIv6j1hfi+9Pmoy/gfn8DTSHzjfBU+xzN/TI6vypeRFHeppae8rfQZce9Bo0W+nviLu30Dq7Wci4zFWaSqfO9Y1GmSsdWu2Ez2vfIeXDc6SR3Cr4blVUVG/KgqdvfcxkKhslHdiBKLJublegzjRYdY6ClBIjbmEYce56BU8H+XPi4vteCYpsdwPkoLxCvvkiUL22L2lyKCEJgbGsKnGAPdXiid3Em6pSvQMDr0QYajh+Jihio9LuvbDMKFb7k8h1Ej5u2q92W3h5yV4bt6exfLbNcP3z8eSxYr8ok+J6RPjlg7LMEYi1TYRxPC7cohs7ZUrBnYS4u2BSXxeRqVU5Sl1dxm0oVyzmA4bZ6MATQYk+KGJjYG1Aj+f9GWZ+8lVkim7ZFH+ptscEK0tn94Gb2tdSpTR545Mds60n7WfjhHWW2u3AmbIak5pmZSS6LqEL1LuLrrrQwBkFsMoJBpc7HyHo9GVT5vng6QehZUJs+JqKb0OA+1XY0/OlOayoAgsP1RAm7yqu3tYJesOw0gIAcuegtO4q1QviDNRTU07A8xUMfbDWBBb9aXzUBs+pV1k9Dz+LpsLczjBam5mzdvFvjwfr/Df2dxjRl7Nfb4dp/ZdpaNtV4oAXJQ0qLirgysEAfcotAcDmQSk8X9EbCNqYHQnGUcPptRpFJEm44XHtCOigwh9dxQzd2iPoeoGH4O8WF4k734IwnPYAe+s3dEIsv6M8&quot;,&quot;type&quot;:&quot;ACCELEROMETERS&quot;,&quot;version&quot;:1618262832786}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="047FB9CCBD3C7717F4453741B5138DDD" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/badge/activehistory" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="content-type" />
+                <option name="value" value="text/html" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="dataset_id" />
+                <option name="value" value="Nokia3" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataFrom" />
+                <option name="value" value="1619399438679" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dataTo" />
+                <option name="value" value="1619553606223" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="minute" />
+                <option name="value" value="5" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;data&quot;:&quot;m/j348/+Jwm4yiz3Qw6JckYwTIifTCPI4D0tWTq68Q9r1EWYH4ZfbjEtKXnnM06o++lasq1uT0TjzBmOMB7DNr+/RloyyXbbstr7wWXiYKw3/A2hJJ6Qf+DbKL7u/FrjYXoAcgtZNVOcpMQ5+HpCv+1MuAmpuhCwf9QF3ZRN90owf7WJksfls0l1xyIezQ35YscXZo5SbOEFkuGVAv8wydeg23FQQS5CaRtRB1f3shZsihbk1rHek2Bdv8YsbeAE0E/Bgw1FDNMDjZX7SuYbF7udCOajjQJVlURvR7WYql1l0lNtxtt5jPoGTQVz7nY9Mjt6cAVRgGrWCP+Q4cNY2uxdo/6FB54GbaSOPrIRQeT3w2FapBHmRCXBH1gVdaqQhWMNZwmv8wWPgy9aMb6XkgOVVjgRmGhCLMX+pLyqwfxLaHoVu8H9wlyNHOQ3Sq05xTLulV8k/Kut9xbCNZTqA7y7HQxNHlmJ+0AaHenqKPJG843M9+Fs/bqvco7w8vyJ/zinaXjnfnKKg4FY1KADCYYNIi8qFFq2E/LkxOxhrWEowcdgYlzPNybk7GVa36yuIKbikttIWGjN/ZpH/VRXQjBumDN5jZHDbzUuMHOH81e5xfuwi6Lvuc8vpspmRHr1FFU+mVcNytIUPvYt7KO5AOyRZD7QkPY+WEhVHvHYtIv6j1hfi+9Pmoy/gfn8DTSHzjfBU+xzN/TI6vypeRFHeppae8rfQZce9Bo0W+nviLu30Dq7Wci4zFWaSqfO9Y1GmSsdWu2Ez2vfIeXDc6SR3Cr4blVUVG/KgqdvfcxkKhslHdiBKLJublegzjRYdY6ClBIjbmEYce56BU8H+XPi4vteCYpsdwPkoLxCvvkiUL22L2lyKCEJgbGsKnGAPdXiid3Em6pSvQMDr0QYajh+Jihio9LuvbDMKFb7k8h1Ej5u2q92W3h5yV4bt6exfLbNcP3z8eSxYr8ok+J6RPjlg7LMEYi1TYRxPC7cohs7ZUrBnYS4u2BSXxeRqVU5Sl1dxm0oVyzmA4bZ6MATQYk+KGJjYG1Aj+f9GWZ+8lVkim7ZFH+ptscEK0tn94Gb2tdSpTR545Mds60n7WfjhHWW2u3AmbIak5pmZSS6LqEL1LuLrrrQwBkFsMoJBpc7HyHo9GVT5vng6QehZUJs+JqKb0OA+1XY0/OlOayoAgsP1RAm7yqu3tYJesOw0gIAcuegtO4q1QviDNRTU07A8xUMfbDWBBb9aXzUBs+pV1k9Dz+LpsLczjBam5mzdvFvjwfr/Df2dxjRl7Nfb4dp/ZdpaNtV4oAXJQ0qLirgysEAfcotAcDmQSk8X9EbCNqYHQnGUcPptRpFJEm44XHtCOigwh9dxQzd2iPoeoGH4O8WF4k734IwnPYAe+s3dEIsv6M8&quot;,&quot;type&quot;:&quot;ACCELEROMETERS&quot;,&quot;version&quot;:1618262832786}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="biscuits">
             <list>
@@ -1402,92 +2515,6 @@
           <option name="textToSend" value="{&quot;macAddr&quot;:&quot;888&quot;,&quot;password&quot;:&quot;ggh&quot;,&quot;userId&quot;:&quot;hh&quot;,&quot;userName&quot;:&quot;qwr&quot;,&quot;badge_id&quot;:&quot;device-0513-1&quot;,&quot;dataset_id&quot;:&quot;gg&quot;,&quot;time_stamp&quot;:[1617853541319],&quot;type&quot;:&quot;BadgeMetaData&quot;}" />
           <option name="filesToSend" value="" />
         </RestClientRequest>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="localhost" />
-                <option name="name" value="JSESSIONID" />
-                <option name="path" value="/" />
-                <option name="value" value="35462188FACCD4281D574247EC3DCAAA" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:8080" />
-          <option name="urlPath" value="dev/login" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="content-type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;macAddr&quot;:&quot;888&quot;,&quot;password&quot;:&quot;ggh&quot;,&quot;userId&quot;:&quot;hh&quot;,&quot;userName&quot;:&quot;qwr&quot;,&quot;badge_id&quot;:&quot;device-0513-1&quot;,&quot;dataset_id&quot;:&quot;gg&quot;,&quot;time_stamp&quot;:[1617853541319],&quot;type&quot;:&quot;BadgeMetaData&quot;}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:8080" />
-          <option name="urlPath" value="dev/login" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="content-type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;macAddr&quot;:&quot;888&quot;,&quot;password&quot;:&quot;ggh&quot;,&quot;userId&quot;:&quot;hh&quot;,&quot;userName&quot;:&quot;qwr&quot;,&quot;badge_id&quot;:&quot;device-0513-1&quot;,&quot;dataset_id&quot;:&quot;gg&quot;,&quot;time_stamp&quot;:[1617853541319],&quot;type&quot;:&quot;BadgeMetaData&quot;}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:8080" />
-          <option name="urlPath" value="dev/login" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="content-type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;data&quot;:1}" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
       </list>
     </option>
   </component>
@@ -1502,20 +2529,8 @@
     </treeState>
   </component>
   <component name="RunManager" selected="Spring Boot.ServerApplication">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.badge.server.frontend.Test" />
-      <module name="server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.badge.server.frontend.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServerApplicationTests.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WaitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.badge.server.WaitTest" />
       <module name="server" />
       <extension name="coverage">
         <pattern>
@@ -1523,10 +2538,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.badge.server" />
-      <option name="MAIN_CLASS_NAME" value="com.badge.server.ServerApplicationTests" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1542,22 +2553,6 @@
       <option name="PACKAGE_NAME" value="com.badge.server" />
       <option name="MAIN_CLASS_NAME" value="com.badge.server.ServerApplicationTests" />
       <option name="METHOD_NAME" value="testDatasetQuery" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServerApplicationTests.testDatasetRepo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.badge.server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.badge.server" />
-      <option name="MAIN_CLASS_NAME" value="com.badge.server.ServerApplicationTests" />
-      <option name="METHOD_NAME" value="testDatasetRepo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -1579,6 +2574,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServerApplicationTests.testSpeechRatio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.badge.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.badge.server" />
+      <option name="MAIN_CLASS_NAME" value="com.badge.server.ServerApplicationTests" />
+      <option name="METHOD_NAME" value="testSpeechRatio" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerApplicationTests.testSpeechRatio2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.badge.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.badge.server" />
+      <option name="MAIN_CLASS_NAME" value="com.badge.server.ServerApplicationTests" />
+      <option name="METHOD_NAME" value="testSpeechRatio2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.badge.server.ServerApplication" />
@@ -1588,11 +2615,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ServerApplicationTests.testSpeechRatio2" />
+        <item itemvalue="Application.WaitTest" />
+        <item itemvalue="JUnit.ServerApplicationTests.testSpeechRatio" />
         <item itemvalue="JUnit.ServerApplicationTests.testDatasetStat" />
         <item itemvalue="JUnit.ServerApplicationTests.testDatasetQuery" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="JUnit.ServerApplicationTests.testDatasetRepo" />
-        <item itemvalue="JUnit.ServerApplicationTests.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -1609,17 +2636,12 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="test_badge@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@7d1aa3fa" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@3d99ff4a" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="test_badge@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@58c03da3" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="test_badge@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@3305c16" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@3391701a" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -1651,7 +2673,13 @@
       <workItem from="1619239087772" duration="121000" />
       <workItem from="1619286711749" duration="346000" />
       <workItem from="1619378079946" duration="12017000" />
-      <workItem from="1619467977728" duration="282000" />
+      <workItem from="1619467977728" duration="2459000" />
+      <workItem from="1619507397651" duration="16633000" />
+      <workItem from="1619633134657" duration="690000" />
+      <workItem from="1619635754511" duration="8562000" />
+      <workItem from="1619752964413" duration="1183000" />
+      <workItem from="1620089229775" duration="23463000" />
+      <workItem from="1620183710363" duration="1205000" />
     </task>
     <servers />
   </component>
@@ -1663,22 +2691,31 @@
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1360" y="202" key="#Assign_Data_Sources/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1617849527552" />
+    <state x="-1360" y="202" key="#Console" timestamp="1619656953894">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1360" y="202" key="#Console/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619656953894" />
+    <state x="-1360" y="202" key="#SQL_Dialects" timestamp="1619655784211">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1360" y="202" key="#SQL_Dialects/0.25.1440.875/-3000.-77.1080.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619655784211" />
     <state x="-1360" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619237898880">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1360" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1617849509928" />
     <state x="-2991" y="257" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617765106549" />
     <state x="-1360" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619237898880" />
-    <state x="-1412" y="374" key="#com.intellij.ide.util.MemberChooser" timestamp="1619385867642">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state x="381" y="312" key="#com.intellij.ide.util.MemberChooser" timestamp="1620174634584">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="-1412" y="374" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1618171547278" />
     <state x="-2714" y="563" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617740735119" />
-    <state x="-1412" y="374" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619385867642" />
+    <state x="-1412" y="374" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1620092720529" />
     <state x="-2714" y="563" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1618947683328" />
-    <state x="381" y="312" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1618102619046" />
+    <state x="381" y="312" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1620174634584" />
     <state x="-1412" y="374" key="#com.intellij.ide.util.MemberChooser/0.25.1440.875/-1920.0.1920.1080/-3000.-77.1080.1895@-1920.0.1920.1080" timestamp="1618087596252" />
     <state x="-2714" y="563" key="#com.intellij.ide.util.MemberChooser/0.25.1440.875/-3000.-102.1080.1920/-1920.25.1920.1055@-3000.-102.1080.1920" timestamp="1618938204220" />
+    <state x="-1412" y="374" key="#com.intellij.ide.util.MemberChooser/0.25.1440.875/-3000.-77.1080.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619636895689" />
     <state x="-1203" y="403" width="494" height="282" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1619191191278">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
@@ -1687,174 +2724,194 @@
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1222" y="291" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619237297347" />
-    <state width="1876" height="321" key="GridCell.Tab.0.bottom" timestamp="1619401412557">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state x="408" y="259" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1620185035383">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="408" y="259" key="DUMP_DIALOG_DIMENSION_KEY/0.0.1440.900@0.0.1440.900" timestamp="1620185035383" />
+    <state width="1396" height="368" key="GridCell.Tab.0.bottom" timestamp="1620258757195">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1876" height="350" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1618279762096" />
     <state width="1036" height="862" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617822444262" />
-    <state width="1876" height="321" key="GridCell.Tab.0.bottom/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619400094425" />
-    <state width="1036" height="420" key="GridCell.Tab.0.bottom/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1618949060426" />
-    <state width="1396" height="173" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1618285621001" />
+    <state width="1876" height="319" key="GridCell.Tab.0.bottom/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1620094697198" />
+    <state width="1036" height="609" key="GridCell.Tab.0.bottom/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1619573662881" />
+    <state width="1396" height="368" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1620258757195" />
     <state width="1876" height="312" key="GridCell.Tab.0.bottom/0.25.1440.875/-1920.0.1920.1080/-2952.-77.1032.1895@-1920.0.1920.1080" timestamp="1618086083933" />
     <state width="1036" height="710" key="GridCell.Tab.0.bottom/0.25.1440.875/-1920.0.1920.1080/-3000.-77.1080.1895@-1920.0.1920.1080" timestamp="1618964266161" />
     <state width="1036" height="347" key="GridCell.Tab.0.bottom/0.25.1440.875/-1920.25.1920.1055/-2952.-77.1032.1895@-2952.-77.1032.1895" timestamp="1617740793998" />
     <state width="1036" height="347" key="GridCell.Tab.0.bottom/0.25.1440.875/-1920.25.1920.1055/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617739823288" />
     <state width="1036" height="420" key="GridCell.Tab.0.bottom/0.25.1440.875/-2952.-102.1032.1920/-1920.25.1920.1055@-2952.-102.1032.1920" timestamp="1618930545543" />
-    <state width="1876" height="321" key="GridCell.Tab.0.bottom/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619401412557" />
-    <state width="1036" height="420" key="GridCell.Tab.0.bottom/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-2952.-77.1032.1895" timestamp="1618954544891" />
+    <state width="1876" height="319" key="GridCell.Tab.0.bottom/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1620094690742" />
+    <state width="1876" height="319" key="GridCell.Tab.0.bottom/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1619973747271" />
+    <state width="1036" height="708" key="GridCell.Tab.0.bottom/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-2952.-77.1032.1895" timestamp="1619586222972" />
     <state width="1876" height="420" key="GridCell.Tab.0.bottom/0.25.1440.875/-3000.-77.1080.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1618957139750" />
-    <state width="1876" height="321" key="GridCell.Tab.0.center" timestamp="1619401412556">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1396" height="368" key="GridCell.Tab.0.bottom/46.25.1394.875@46.25.1394.875" timestamp="1620172163985" />
+    <state width="1396" height="368" key="GridCell.Tab.0.center" timestamp="1620258757194">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1876" height="350" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1618279762094" />
     <state width="1036" height="862" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617822444260" />
-    <state width="1876" height="321" key="GridCell.Tab.0.center/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619400094423" />
-    <state width="1036" height="420" key="GridCell.Tab.0.center/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1618949060424" />
-    <state width="1396" height="173" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1618285621000" />
+    <state width="1876" height="319" key="GridCell.Tab.0.center/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1620094697197" />
+    <state width="1036" height="609" key="GridCell.Tab.0.center/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1619573662878" />
+    <state width="1396" height="368" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1620258757194" />
     <state width="1876" height="312" key="GridCell.Tab.0.center/0.25.1440.875/-1920.0.1920.1080/-2952.-77.1032.1895@-1920.0.1920.1080" timestamp="1618086083929" />
     <state width="1036" height="710" key="GridCell.Tab.0.center/0.25.1440.875/-1920.0.1920.1080/-3000.-77.1080.1895@-1920.0.1920.1080" timestamp="1618964266159" />
     <state width="1036" height="347" key="GridCell.Tab.0.center/0.25.1440.875/-1920.25.1920.1055/-2952.-77.1032.1895@-2952.-77.1032.1895" timestamp="1617740793995" />
     <state width="1036" height="347" key="GridCell.Tab.0.center/0.25.1440.875/-1920.25.1920.1055/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617739823286" />
     <state width="1036" height="420" key="GridCell.Tab.0.center/0.25.1440.875/-2952.-102.1032.1920/-1920.25.1920.1055@-2952.-102.1032.1920" timestamp="1618930545540" />
-    <state width="1876" height="321" key="GridCell.Tab.0.center/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619401412556" />
-    <state width="1036" height="420" key="GridCell.Tab.0.center/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-2952.-77.1032.1895" timestamp="1618954544878" />
+    <state width="1876" height="319" key="GridCell.Tab.0.center/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1620094690736" />
+    <state width="1876" height="319" key="GridCell.Tab.0.center/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1619973747267" />
+    <state width="1036" height="708" key="GridCell.Tab.0.center/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-2952.-77.1032.1895" timestamp="1619586222970" />
     <state width="1876" height="420" key="GridCell.Tab.0.center/0.25.1440.875/-3000.-77.1080.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1618957139746" />
-    <state width="1876" height="321" key="GridCell.Tab.0.left" timestamp="1619401412554">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1396" height="368" key="GridCell.Tab.0.center/46.25.1394.875@46.25.1394.875" timestamp="1620172163980" />
+    <state width="1396" height="368" key="GridCell.Tab.0.left" timestamp="1620258757193">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1876" height="350" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1618279762093" />
     <state width="1036" height="862" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617822444259" />
-    <state width="1876" height="321" key="GridCell.Tab.0.left/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619400094419" />
-    <state width="1036" height="420" key="GridCell.Tab.0.left/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1618949060421" />
-    <state width="1396" height="173" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1618285620999" />
+    <state width="1876" height="319" key="GridCell.Tab.0.left/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1620094697196" />
+    <state width="1036" height="609" key="GridCell.Tab.0.left/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1619573662874" />
+    <state width="1396" height="368" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1620258757193" />
     <state width="1876" height="312" key="GridCell.Tab.0.left/0.25.1440.875/-1920.0.1920.1080/-2952.-77.1032.1895@-1920.0.1920.1080" timestamp="1618086083927" />
     <state width="1036" height="710" key="GridCell.Tab.0.left/0.25.1440.875/-1920.0.1920.1080/-3000.-77.1080.1895@-1920.0.1920.1080" timestamp="1618964266157" />
     <state width="1036" height="347" key="GridCell.Tab.0.left/0.25.1440.875/-1920.25.1920.1055/-2952.-77.1032.1895@-2952.-77.1032.1895" timestamp="1617740793993" />
     <state width="1036" height="347" key="GridCell.Tab.0.left/0.25.1440.875/-1920.25.1920.1055/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617739823284" />
     <state width="1036" height="420" key="GridCell.Tab.0.left/0.25.1440.875/-2952.-102.1032.1920/-1920.25.1920.1055@-2952.-102.1032.1920" timestamp="1618930545538" />
-    <state width="1876" height="321" key="GridCell.Tab.0.left/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619401412554" />
-    <state width="1036" height="420" key="GridCell.Tab.0.left/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-2952.-77.1032.1895" timestamp="1618954544876" />
+    <state width="1876" height="319" key="GridCell.Tab.0.left/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1620094690735" />
+    <state width="1876" height="319" key="GridCell.Tab.0.left/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1619973747264" />
+    <state width="1036" height="708" key="GridCell.Tab.0.left/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-2952.-77.1032.1895" timestamp="1619586222969" />
     <state width="1876" height="420" key="GridCell.Tab.0.left/0.25.1440.875/-3000.-77.1080.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1618957139744" />
-    <state width="1876" height="321" key="GridCell.Tab.0.right" timestamp="1619401412556">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1396" height="368" key="GridCell.Tab.0.left/46.25.1394.875@46.25.1394.875" timestamp="1620172163979" />
+    <state width="1396" height="368" key="GridCell.Tab.0.right" timestamp="1620258757195">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1876" height="350" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1618279762095" />
     <state width="1036" height="862" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617822444261" />
-    <state width="1876" height="321" key="GridCell.Tab.0.right/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619400094424" />
-    <state width="1036" height="420" key="GridCell.Tab.0.right/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1618949060425" />
-    <state width="1396" height="173" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1618285621001" />
+    <state width="1876" height="319" key="GridCell.Tab.0.right/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1620094697198" />
+    <state width="1036" height="609" key="GridCell.Tab.0.right/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1619573662880" />
+    <state width="1396" height="368" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1620258757195" />
     <state width="1876" height="312" key="GridCell.Tab.0.right/0.25.1440.875/-1920.0.1920.1080/-2952.-77.1032.1895@-1920.0.1920.1080" timestamp="1618086083931" />
     <state width="1036" height="710" key="GridCell.Tab.0.right/0.25.1440.875/-1920.0.1920.1080/-3000.-77.1080.1895@-1920.0.1920.1080" timestamp="1618964266160" />
     <state width="1036" height="347" key="GridCell.Tab.0.right/0.25.1440.875/-1920.25.1920.1055/-2952.-77.1032.1895@-2952.-77.1032.1895" timestamp="1617740793996" />
     <state width="1036" height="347" key="GridCell.Tab.0.right/0.25.1440.875/-1920.25.1920.1055/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617739823287" />
     <state width="1036" height="420" key="GridCell.Tab.0.right/0.25.1440.875/-2952.-102.1032.1920/-1920.25.1920.1055@-2952.-102.1032.1920" timestamp="1618930545541" />
-    <state width="1876" height="321" key="GridCell.Tab.0.right/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619401412556" />
-    <state width="1036" height="420" key="GridCell.Tab.0.right/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-2952.-77.1032.1895" timestamp="1618954544883" />
+    <state width="1876" height="319" key="GridCell.Tab.0.right/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1620094690738" />
+    <state width="1876" height="319" key="GridCell.Tab.0.right/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1619973747269" />
+    <state width="1036" height="708" key="GridCell.Tab.0.right/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-2952.-77.1032.1895" timestamp="1619586222971" />
     <state width="1876" height="420" key="GridCell.Tab.0.right/0.25.1440.875/-3000.-77.1080.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1618957139748" />
-    <state width="1876" height="374" key="GridCell.Tab.1.bottom" timestamp="1619401412537">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1396" height="368" key="GridCell.Tab.0.right/46.25.1394.875@46.25.1394.875" timestamp="1620172163984" />
+    <state width="1396" height="230" key="GridCell.Tab.1.bottom" timestamp="1620182433787">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1876" height="350" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1618277449939" />
     <state width="1036" height="862" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617822444269" />
-    <state width="1876" height="321" key="GridCell.Tab.1.bottom/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619400094430" />
-    <state width="1036" height="420" key="GridCell.Tab.1.bottom/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1618949060432" />
-    <state width="1876" height="375" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1618092796179" />
+    <state width="1876" height="319" key="GridCell.Tab.1.bottom/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1620094697201" />
+    <state width="1036" height="609" key="GridCell.Tab.1.bottom/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1619573662888" />
+    <state width="1396" height="230" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1620182433787" />
     <state width="1876" height="312" key="GridCell.Tab.1.bottom/0.25.1440.875/-1920.0.1920.1080/-2952.-77.1032.1895@-1920.0.1920.1080" timestamp="1618086083944" />
     <state width="1036" height="710" key="GridCell.Tab.1.bottom/0.25.1440.875/-1920.0.1920.1080/-3000.-77.1080.1895@-1920.0.1920.1080" timestamp="1618964266165" />
     <state width="1036" height="347" key="GridCell.Tab.1.bottom/0.25.1440.875/-1920.25.1920.1055/-2952.-77.1032.1895@-2952.-77.1032.1895" timestamp="1617740794003" />
     <state width="1036" height="347" key="GridCell.Tab.1.bottom/0.25.1440.875/-1920.25.1920.1055/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617739823291" />
     <state width="1036" height="420" key="GridCell.Tab.1.bottom/0.25.1440.875/-2952.-102.1032.1920/-1920.25.1920.1055@-2952.-102.1032.1920" timestamp="1618930545550" />
-    <state width="1876" height="374" key="GridCell.Tab.1.bottom/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619401412537" />
-    <state width="1036" height="420" key="GridCell.Tab.1.bottom/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-2952.-77.1032.1895" timestamp="1618954544897" />
+    <state width="1876" height="319" key="GridCell.Tab.1.bottom/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1620094690758" />
+    <state width="1036" height="708" key="GridCell.Tab.1.bottom/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-2952.-77.1032.1895" timestamp="1619586222974" />
     <state width="1876" height="420" key="GridCell.Tab.1.bottom/0.25.1440.875/-3000.-77.1080.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1618957139758" />
-    <state width="1876" height="374" key="GridCell.Tab.1.center" timestamp="1619401412535">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1396" height="368" key="GridCell.Tab.1.bottom/46.25.1394.875@46.25.1394.875" timestamp="1620172163988" />
+    <state width="1396" height="230" key="GridCell.Tab.1.center" timestamp="1620182433786">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1876" height="350" key="GridCell.Tab.1.center/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1618277449937" />
     <state width="1036" height="862" key="GridCell.Tab.1.center/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617822444265" />
-    <state width="1876" height="321" key="GridCell.Tab.1.center/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619400094428" />
-    <state width="1036" height="420" key="GridCell.Tab.1.center/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1618949060429" />
-    <state width="1876" height="375" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1618092796178" />
+    <state width="1876" height="319" key="GridCell.Tab.1.center/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1620094697200" />
+    <state width="1036" height="609" key="GridCell.Tab.1.center/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1619573662885" />
+    <state width="1396" height="230" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1620182433786" />
     <state width="1876" height="312" key="GridCell.Tab.1.center/0.25.1440.875/-1920.0.1920.1080/-2952.-77.1032.1895@-1920.0.1920.1080" timestamp="1618086083938" />
     <state width="1036" height="710" key="GridCell.Tab.1.center/0.25.1440.875/-1920.0.1920.1080/-3000.-77.1080.1895@-1920.0.1920.1080" timestamp="1618964266163" />
     <state width="1036" height="347" key="GridCell.Tab.1.center/0.25.1440.875/-1920.25.1920.1055/-2952.-77.1032.1895@-2952.-77.1032.1895" timestamp="1617740794000" />
     <state width="1036" height="347" key="GridCell.Tab.1.center/0.25.1440.875/-1920.25.1920.1055/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617739823289" />
     <state width="1036" height="420" key="GridCell.Tab.1.center/0.25.1440.875/-2952.-102.1032.1920/-1920.25.1920.1055@-2952.-102.1032.1920" timestamp="1618930545547" />
-    <state width="1876" height="374" key="GridCell.Tab.1.center/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619401412535" />
-    <state width="1036" height="420" key="GridCell.Tab.1.center/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-2952.-77.1032.1895" timestamp="1618954544893" />
+    <state width="1876" height="319" key="GridCell.Tab.1.center/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1620094690745" />
+    <state width="1036" height="708" key="GridCell.Tab.1.center/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-2952.-77.1032.1895" timestamp="1619586222973" />
     <state width="1876" height="420" key="GridCell.Tab.1.center/0.25.1440.875/-3000.-77.1080.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1618957139754" />
-    <state width="1876" height="374" key="GridCell.Tab.1.left" timestamp="1619401412534">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1396" height="368" key="GridCell.Tab.1.center/46.25.1394.875@46.25.1394.875" timestamp="1620172163987" />
+    <state width="1396" height="230" key="GridCell.Tab.1.left" timestamp="1620182433786">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1876" height="350" key="GridCell.Tab.1.left/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1618277449936" />
     <state width="1036" height="862" key="GridCell.Tab.1.left/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617822444263" />
-    <state width="1876" height="321" key="GridCell.Tab.1.left/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619400094427" />
-    <state width="1036" height="420" key="GridCell.Tab.1.left/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1618949060428" />
-    <state width="1876" height="375" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1618092796177" />
+    <state width="1876" height="319" key="GridCell.Tab.1.left/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1620094697199" />
+    <state width="1036" height="609" key="GridCell.Tab.1.left/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1619573662883" />
+    <state width="1396" height="230" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1620182433786" />
     <state width="1876" height="312" key="GridCell.Tab.1.left/0.25.1440.875/-1920.0.1920.1080/-2952.-77.1032.1895@-1920.0.1920.1080" timestamp="1618086083937" />
     <state width="1036" height="710" key="GridCell.Tab.1.left/0.25.1440.875/-1920.0.1920.1080/-3000.-77.1080.1895@-1920.0.1920.1080" timestamp="1618964266162" />
     <state width="1036" height="347" key="GridCell.Tab.1.left/0.25.1440.875/-1920.25.1920.1055/-2952.-77.1032.1895@-2952.-77.1032.1895" timestamp="1617740793999" />
     <state width="1036" height="347" key="GridCell.Tab.1.left/0.25.1440.875/-1920.25.1920.1055/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617739823288" />
     <state width="1036" height="420" key="GridCell.Tab.1.left/0.25.1440.875/-2952.-102.1032.1920/-1920.25.1920.1055@-2952.-102.1032.1920" timestamp="1618930545545" />
-    <state width="1876" height="374" key="GridCell.Tab.1.left/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619401412534" />
-    <state width="1036" height="420" key="GridCell.Tab.1.left/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-2952.-77.1032.1895" timestamp="1618954544892" />
+    <state width="1876" height="319" key="GridCell.Tab.1.left/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1620094690743" />
+    <state width="1036" height="708" key="GridCell.Tab.1.left/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-2952.-77.1032.1895" timestamp="1619586222972" />
     <state width="1876" height="420" key="GridCell.Tab.1.left/0.25.1440.875/-3000.-77.1080.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1618957139752" />
-    <state width="1876" height="374" key="GridCell.Tab.1.right" timestamp="1619401412536">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1396" height="368" key="GridCell.Tab.1.left/46.25.1394.875@46.25.1394.875" timestamp="1620172163986" />
+    <state width="1396" height="230" key="GridCell.Tab.1.right" timestamp="1620182433786">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1876" height="350" key="GridCell.Tab.1.right/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1618277449938" />
     <state width="1036" height="862" key="GridCell.Tab.1.right/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617822444267" />
-    <state width="1876" height="321" key="GridCell.Tab.1.right/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619400094429" />
-    <state width="1036" height="420" key="GridCell.Tab.1.right/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1618949060430" />
-    <state width="1876" height="375" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1618092796178" />
+    <state width="1876" height="319" key="GridCell.Tab.1.right/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1620094697200" />
+    <state width="1036" height="609" key="GridCell.Tab.1.right/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1619573662886" />
+    <state width="1396" height="230" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1620182433786" />
     <state width="1876" height="312" key="GridCell.Tab.1.right/0.25.1440.875/-1920.0.1920.1080/-2952.-77.1032.1895@-1920.0.1920.1080" timestamp="1618086083941" />
     <state width="1036" height="710" key="GridCell.Tab.1.right/0.25.1440.875/-1920.0.1920.1080/-3000.-77.1080.1895@-1920.0.1920.1080" timestamp="1618964266164" />
     <state width="1036" height="347" key="GridCell.Tab.1.right/0.25.1440.875/-1920.25.1920.1055/-2952.-77.1032.1895@-2952.-77.1032.1895" timestamp="1617740794001" />
     <state width="1036" height="347" key="GridCell.Tab.1.right/0.25.1440.875/-1920.25.1920.1055/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617739823290" />
     <state width="1036" height="420" key="GridCell.Tab.1.right/0.25.1440.875/-2952.-102.1032.1920/-1920.25.1920.1055@-2952.-102.1032.1920" timestamp="1618930545549" />
-    <state width="1876" height="374" key="GridCell.Tab.1.right/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619401412536" />
-    <state width="1036" height="420" key="GridCell.Tab.1.right/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-2952.-77.1032.1895" timestamp="1618954544895" />
+    <state width="1876" height="319" key="GridCell.Tab.1.right/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1620094690755" />
+    <state width="1036" height="708" key="GridCell.Tab.1.right/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-2952.-77.1032.1895" timestamp="1619586222974" />
     <state width="1876" height="420" key="GridCell.Tab.1.right/0.25.1440.875/-3000.-77.1080.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1618957139756" />
-    <state width="1876" height="374" key="GridCell.Tab.2.bottom" timestamp="1619401412544">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1396" height="368" key="GridCell.Tab.1.right/46.25.1394.875@46.25.1394.875" timestamp="1620172163988" />
+    <state width="1396" height="230" key="GridCell.Tab.2.bottom" timestamp="1620182433788">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1876" height="375" key="GridCell.Tab.2.bottom/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1618083153282" />
-    <state width="1876" height="374" key="GridCell.Tab.2.bottom/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619238994033" />
-    <state width="1036" height="710" key="GridCell.Tab.2.bottom/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1618939444724" />
-    <state width="1876" height="375" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1618092796181" />
+    <state width="1876" height="373" key="GridCell.Tab.2.bottom/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1620094624616" />
+    <state width="1036" height="708" key="GridCell.Tab.2.bottom/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1619573660383" />
+    <state width="1396" height="230" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1620182433788" />
     <state width="1036" height="710" key="GridCell.Tab.2.bottom/0.25.1440.875/-1920.0.1920.1080/-3000.-77.1080.1895@-1920.0.1920.1080" timestamp="1618964266169" />
     <state width="1036" height="710" key="GridCell.Tab.2.bottom/0.25.1440.875/-2952.-102.1032.1920/-1920.25.1920.1055@-2952.-102.1032.1920" timestamp="1618930545279" />
-    <state width="1876" height="374" key="GridCell.Tab.2.bottom/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619401412544" />
-    <state width="1876" height="374" key="GridCell.Tab.2.center" timestamp="1619401412539">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1876" height="373" key="GridCell.Tab.2.bottom/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619662129735" />
+    <state width="1036" height="708" key="GridCell.Tab.2.bottom/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-2952.-77.1032.1895" timestamp="1619586222977" />
+    <state width="1396" height="230" key="GridCell.Tab.2.center" timestamp="1620182433788">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1876" height="375" key="GridCell.Tab.2.center/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1618083153280" />
-    <state width="1876" height="374" key="GridCell.Tab.2.center/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619238994032" />
-    <state width="1036" height="710" key="GridCell.Tab.2.center/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1618939444722" />
-    <state width="1876" height="375" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1618092796180" />
+    <state width="1876" height="373" key="GridCell.Tab.2.center/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1620094624614" />
+    <state width="1036" height="708" key="GridCell.Tab.2.center/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1619573660381" />
+    <state width="1396" height="230" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1620182433788" />
     <state width="1036" height="710" key="GridCell.Tab.2.center/0.25.1440.875/-1920.0.1920.1080/-3000.-77.1080.1895@-1920.0.1920.1080" timestamp="1618964266167" />
     <state width="1036" height="710" key="GridCell.Tab.2.center/0.25.1440.875/-2952.-102.1032.1920/-1920.25.1920.1055@-2952.-102.1032.1920" timestamp="1618930545276" />
-    <state width="1876" height="374" key="GridCell.Tab.2.center/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619401412539" />
-    <state width="1876" height="374" key="GridCell.Tab.2.left" timestamp="1619401412538">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1876" height="373" key="GridCell.Tab.2.center/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619662129733" />
+    <state width="1036" height="708" key="GridCell.Tab.2.center/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-2952.-77.1032.1895" timestamp="1619586222976" />
+    <state width="1396" height="230" key="GridCell.Tab.2.left" timestamp="1620182433787">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1876" height="375" key="GridCell.Tab.2.left/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1618083153279" />
-    <state width="1876" height="374" key="GridCell.Tab.2.left/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619238994031" />
-    <state width="1036" height="710" key="GridCell.Tab.2.left/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1618939444721" />
-    <state width="1876" height="375" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1618092796180" />
+    <state width="1876" height="373" key="GridCell.Tab.2.left/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1620094624613" />
+    <state width="1036" height="708" key="GridCell.Tab.2.left/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1619573660380" />
+    <state width="1396" height="230" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1620182433787" />
     <state width="1036" height="710" key="GridCell.Tab.2.left/0.25.1440.875/-1920.0.1920.1080/-3000.-77.1080.1895@-1920.0.1920.1080" timestamp="1618964266166" />
     <state width="1036" height="710" key="GridCell.Tab.2.left/0.25.1440.875/-2952.-102.1032.1920/-1920.25.1920.1055@-2952.-102.1032.1920" timestamp="1618930545275" />
-    <state width="1876" height="374" key="GridCell.Tab.2.left/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619401412538" />
-    <state width="1876" height="374" key="GridCell.Tab.2.right" timestamp="1619401412543">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1876" height="373" key="GridCell.Tab.2.left/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619662129733" />
+    <state width="1036" height="708" key="GridCell.Tab.2.left/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-2952.-77.1032.1895" timestamp="1619586222975" />
+    <state width="1396" height="230" key="GridCell.Tab.2.right" timestamp="1620182433788">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1876" height="375" key="GridCell.Tab.2.right/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1618083153281" />
-    <state width="1876" height="374" key="GridCell.Tab.2.right/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619238994033" />
-    <state width="1036" height="710" key="GridCell.Tab.2.right/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1618939444723" />
-    <state width="1876" height="375" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1618092796180" />
+    <state width="1876" height="373" key="GridCell.Tab.2.right/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1620094624615" />
+    <state width="1036" height="708" key="GridCell.Tab.2.right/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1619573660382" />
+    <state width="1396" height="230" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1620182433788" />
     <state width="1036" height="710" key="GridCell.Tab.2.right/0.25.1440.875/-1920.0.1920.1080/-3000.-77.1080.1895@-1920.0.1920.1080" timestamp="1618964266168" />
     <state width="1036" height="710" key="GridCell.Tab.2.right/0.25.1440.875/-2952.-102.1032.1920/-1920.25.1920.1055@-2952.-102.1032.1920" timestamp="1618930545277" />
-    <state width="1876" height="374" key="GridCell.Tab.2.right/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619401412543" />
+    <state width="1876" height="373" key="GridCell.Tab.2.right/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619662129734" />
+    <state width="1036" height="708" key="GridCell.Tab.2.right/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-2952.-77.1032.1895" timestamp="1619586222976" />
     <state width="237" height="457" key="HiddenNamespacesPopup" timestamp="1617690992323">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
@@ -1889,43 +2946,47 @@
     <state x="886" y="170" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1440.900@0.0.1440.900" timestamp="1618284601015" />
     <state x="-962" y="204" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619399403054" />
     <state x="899" y="190" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/45.25.1395.875@45.25.1395.875" timestamp="1618102163812" />
-    <state x="329" y="385" key="com.intellij.ide.util.TipDialog" timestamp="1619467978381">
+    <state x="365" y="399" key="com.intellij.ide.util.TipDialog" timestamp="1620184501987">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="-1481" y="462" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1618260429159" />
     <state x="-2781" y="687" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-3000.-102.1080.1920" timestamp="1617739875946" />
-    <state x="-1481" y="462" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619286712033" />
-    <state x="329" y="385" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1619467978381" />
-    <state x="-1481" y="462" key="com.intellij.ide.util.TipDialog/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619378083029" />
-    <state x="-3000" y="-77" width="1080" height="1810" key="dock-window-1" timestamp="1619378903036">
+    <state x="-1481" y="462" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1620089231585" />
+    <state x="365" y="399" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1620184501987" />
+    <state x="-2753" y="718" key="com.intellij.ide.util.TipDialog/0.25.1440.875/-2952.-102.1032.1920/-1920.25.1920.1055@-2952.-102.1032.1920" timestamp="1619633607038" />
+    <state x="-1481" y="462" key="com.intellij.ide.util.TipDialog/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619635757376" />
+    <state x="-3000" y="-77" width="1080" height="1088" key="dock-window-1" timestamp="1619753033470">
       <screen x="-2952" y="-77" width="1032" height="1895" />
     </state>
-    <state x="-3000" y="-102" width="1080" height="1810" key="dock-window-1/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619378217825" />
+    <state x="-3000" y="-102" width="1080" height="1088" key="dock-window-1/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619636739574" />
     <state x="-1791" y="387" width="1748" height="836" key="dock-window-1/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1618938459677" />
     <state x="-2879" y="-77" width="773" height="1535" key="dock-window-1/0.25.1440.875/-1920.0.1920.1080/-3000.-77.1080.1895@-1920.0.1920.1080" timestamp="1617862696096" />
     <state x="-1858" y="127" width="1748" height="836" key="dock-window-1/0.25.1440.875/-2952.-102.1032.1920/-1920.25.1920.1055@-2952.-102.1032.1920" timestamp="1618930190144" />
-    <state x="-3000" y="-77" width="1080" height="1810" key="dock-window-1/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619378903036" />
-    <state x="-2867" y="-46" width="1011" height="1497" key="dock-window-2" timestamp="1619399277624">
-      <screen x="-2952" y="-77" width="1032" height="1895" />
+    <state x="-3000" y="-77" width="1080" height="1088" key="dock-window-1/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619753033470" />
+    <state x="-1791" y="244" width="1748" height="836" key="dock-window-1/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-2952.-77.1032.1895" timestamp="1619633617809" />
+    <state x="-3000" y="-102" width="1080" height="1920" key="dock-window-1/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-2952.-77.1032.1895" timestamp="1619575776296" />
+    <state x="-1495" y="25" width="630" height="1055" key="dock-window-2" timestamp="1619633617811">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-3000" y="-102" width="1011" height="1497" key="dock-window-2/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619385817063" />
-    <state x="-1642" y="202" width="832" height="1055" key="dock-window-2/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1618938459678" />
+    <state x="-1495" y="0" width="630" height="1080" key="dock-window-2/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1619573221893" />
     <state x="-2927" y="-56" width="773" height="615" key="dock-window-2/0.25.1440.875/-1920.0.1920.1080/-3000.-77.1080.1895@-1920.0.1920.1080" timestamp="1617862696106" />
     <state x="-2867" y="-46" width="1011" height="1497" key="dock-window-2/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619399277624" />
-    <state x="-1555" y="25" width="832" height="1055" key="dock-window-2/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-2952.-77.1032.1895" timestamp="1618937826175" />
-    <state x="-2930" y="512" width="956" height="1080" key="dock-window-3" timestamp="1619191207361">
-      <screen x="-3000" y="-102" width="1080" height="1920" />
+    <state x="-1495" y="25" width="630" height="1055" key="dock-window-2/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-2952.-77.1032.1895" timestamp="1619633617811" />
+    <state x="-1495" y="25" width="630" height="1055" key="dock-window-2/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-2952.-77.1032.1895" timestamp="1619575776297" />
+    <state x="-1920" y="0" width="1920" height="1080" key="dock-window-3" timestamp="1619633617813">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="964" y="0" width="956" height="1080" key="dock-window-3/-1080.0.1080.1920/0.0.1920.1080@-1080.0.1080.1920" timestamp="1618953684099" />
     <state x="-3000" y="-102" width="1080" height="1920" key="dock-window-3/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1617863079990" />
     <state x="-2930" y="512" width="956" height="1080" key="dock-window-3/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619191207361" />
-    <state x="-956" y="0" width="956" height="1080" key="dock-window-3/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1618954237320" />
+    <state x="-1920" y="0" width="1036" height="1080" key="dock-window-3/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-3000.-102.1080.1920" timestamp="1619573575670" />
     <state x="-2819" y="63" width="773" height="1150" key="dock-window-3/0.25.1440.875/-1920.0.1920.1080/-2952.-77.1032.1895@-1920.0.1920.1080" timestamp="1617862746272" />
     <state x="-956" y="0" width="956" height="1080" key="dock-window-3/0.25.1440.875/-1920.0.1920.1080/-3000.-77.1080.1895@-1920.0.1920.1080" timestamp="1618964266358" />
     <state x="-3000" y="-102" width="1080" height="1920" key="dock-window-3/0.25.1440.875/-1920.25.1920.1055/-2952.-77.1032.1895@-1920.25.1920.1055" timestamp="1617900979138" />
     <state x="-2892" y="271" width="956" height="1080" key="dock-window-3/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619191050098" />
-    <state x="-956" y="0" width="956" height="1080" key="dock-window-3/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-2952.-77.1032.1895" timestamp="1618939023493" />
-    <state x="-1464" y="25" width="1036" height="1055" key="dock-window-3/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-2952.-77.1032.1895" timestamp="1618938575911" />
+    <state x="-1920" y="0" width="1920" height="1080" key="dock-window-3/0.25.1440.875/-2952.-77.1032.1895/-1920.0.1920.1080@-2952.-77.1032.1895" timestamp="1619633617813" />
+    <state x="-1920" y="25" width="1036" height="1055" key="dock-window-3/0.25.1440.875/-2952.-77.1032.1895/-1920.25.1920.1055@-2952.-77.1032.1895" timestamp="1619575776299" />
     <state x="726" y="0" width="714" height="900" key="dock-window-3/45.25.1395.875@45.25.1395.875" timestamp="1618960337891" />
     <state x="-3000" y="-102" width="1080" height="1920" key="dock-window-4" timestamp="1619191207363">
       <screen x="-3000" y="-102" width="1080" height="1920" />
@@ -1945,19 +3006,39 @@
     <state x="0" y="0" width="1440" height="900" maximized="true" key="dock-window-4/44.25.1396.875@44.25.1396.875" timestamp="1618101796455" />
     <state x="0" y="0" width="714" height="900" key="dock-window-4/45.25.1395.875@45.25.1395.875" timestamp="1618960337892" />
     <state x="0" y="0" width="1440" height="900" maximized="true" key="dock-window-4/46.25.1394.875@46.25.1394.875" timestamp="1618101671049" />
-    <state x="-1556" y="254" width="1192" height="381" key="search.everywhere.popup" timestamp="1619235439632">
+    <state x="-1556" y="254" width="1192" height="381" key="search.everywhere.popup" timestamp="1619567229854">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-2795" y="349" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-1920.0.1920.1080/-3000.-102.1080.1920@-1920.0.1920.1080" timestamp="1618030062370" />
-    <state x="-1556" y="254" width="1192" height="381" key="search.everywhere.popup/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619235439632" />
+    <state x="-1556" y="254" width="1192" height="381" key="search.everywhere.popup/0.0.1440.900/-3000.-102.1080.1920/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1619567229854" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/badge/server/android/ScheduledRunner/StaticScheduledTask.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/badge/server/frontend/service/Impl/BadgeServiceImpl.java</url>
+          <line>210</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/badge/server/frontend/service/Impl/BadgeServiceImpl.java</url>
+          <line>238</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/badge/server/frontend/service/Impl/BadgeServiceImpl.java</url>
+          <line>246</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/badge/server/frontend/service/Impl/UserServiceImpl.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/badge/server/frontend/service/Impl/UserServiceImpl.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

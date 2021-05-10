@@ -1,5 +1,6 @@
 package com.badge.server.android.Service.Impl;
 
+import com.badge.server.GlobalParameters;
 import com.badge.server.android.DAO.*;
 import com.badge.server.android.Entity.Pojo.*;
 import com.badge.server.android.Entity.analysis.ActiveRecord;
@@ -16,7 +17,7 @@ import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Map;
-import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.ConcurrentHashMap;
 
 @Service
 public class AndroidDataServiceImpl implements AndroidDeviceService {
@@ -59,21 +60,20 @@ public class AndroidDataServiceImpl implements AndroidDeviceService {
     public boolean login(MetaData metaData, ServletContext servletContext) {
         assert metaData != null;
         Badge badge = JSON2RawData.meta2Badge(metaData);
-        Map<String,Long> onlineBadges = (Map<String, Long>) servletContext.getAttribute("badge");
-        if (!onlineBadges.containsKey(metaData.getBadge_id())){
-            if (badgeRepository.findByIdAndPassword(badge.getId(),badge.getPassword())!=null){
-                synchronized (loginLock){
+            ConcurrentHashMap<String,Long> onlineBadges = (ConcurrentHashMap<String, Long>) servletContext.getAttribute("badge");
+            if (!onlineBadges.containsKey(metaData.getBadge_id())){
+                if (badgeRepository.findByIdAndPassword(badge.getId(),badge.getPassword())!=null){
                     onlineBadges.put(metaData.getBadge_id(),System.currentTimeMillis());
+                    System.out.println(badge+"login success");
+                    return true;
                 }
-                System.out.println(badge+"login success");
+                System.out.println(badge+"login failed");
+                return false;
+            }else{
                 return true;
             }
-            System.out.println(badge+"login failed");
-            return false;
-        }else{
-            return true;
         }
-    }
+
 
     @Override
     public void saveMovement(Accelerator accelerator, HttpSession httpSession) {
@@ -86,18 +86,18 @@ public class AndroidDataServiceImpl implements AndroidDeviceService {
 //              System.out.println(movementSerialNum.getAndIncrement());
                 movementRepository.saveAll(movementArrayList);
                 movementStateRepository.saveAll(saveLastSec(httpSession,accelerator));
-                System.out.println("Accelerator Time Consumption:" + (System.currentTimeMillis() - time1));
+//                System.out.println("Accelerator Time Consumption:" + (System.currentTimeMillis() - time1));
             }
         }
     }
 
     private void persistenceActiveRecord(Accelerator accelerator, HttpSession httpSession){
         // persistence the record
-        Map<String,Long> onlineBadges = (Map<String, Long>) httpSession.getServletContext().getAttribute("badge");
         long currentTime = System.currentTimeMillis();
+        ConcurrentHashMap<String,Long> onlineBadges = (ConcurrentHashMap<String, Long>) httpSession.getServletContext().getAttribute("badge");
         onlineBadges.put(accelerator.getBadge_id(),currentTime);
-//        activeRecordRepository.save(new ActiveRecord(accelerator.getBadge_id(),currentTime));
     }
+
 
     @Override
     public void saveVoice(Microphone microphone) {
@@ -108,7 +108,7 @@ public class AndroidDataServiceImpl implements AndroidDeviceService {
             if (voiceLinkedList.size() > 0) {
 //                System.out.println(voiceSerialNum++);
                 voiceRepository.saveAll(voiceLinkedList);
-                System.out.println("Voice Time Consumption:" + (System.currentTimeMillis() - time1));
+//                System.out.println("Voice Time Consumption:" + (System.currentTimeMillis() - time1));
             }
         }
     }
@@ -122,7 +122,7 @@ public class AndroidDataServiceImpl implements AndroidDeviceService {
             if (nearMacsLinkedList.size() > 0) {
 //                System.out.println(nearMacsSerialNum++);
                 nearMacsRepository.saveAll(nearMacsLinkedList);
-                System.out.println("Mac Time Consumption:" + (System.currentTimeMillis() - time1));
+//                System.out.println("Mac Time Consumption:" + (System.currentTimeMillis() - time1));
             }
         }
     }
@@ -136,7 +136,7 @@ public class AndroidDataServiceImpl implements AndroidDeviceService {
             if (qrCode!=null){
 //                System.out.println(qrCodeSerialNum++);
                 qrCodeRepository.save(qrCode);
-                System.out.println("QRCode Time Consumption:" + (System.currentTimeMillis() - time1));
+//                System.out.println("QRCode Time Consumption:" + (System.currentTimeMillis() - time1));
             }
         }
     }

@@ -18,9 +18,6 @@ public class DatasetServiceImpl implements DatasetService {
 
     @Override
     public List<Dataset> getAll() {
-//        List<Dataset> datasetList =  datasetRepository.findAll();
-//        for (Dataset dataset : datasetList){
-//        }
         return datasetRepository.findAll();
     }
 }

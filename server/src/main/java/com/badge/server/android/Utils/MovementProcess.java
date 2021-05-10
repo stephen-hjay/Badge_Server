@@ -98,7 +98,7 @@ public class MovementProcess {
 
         // get servlet context for  stateful query
         Map<String,Integer> prevStateMap = (Map<String, Integer>) session.getServletContext().getAttribute("badgePrevState");
-
+        System.out.println("badgePrevState"+prevStateMap.hashCode());
         // default previous sit state - stand
         int prevSitState =1;
 

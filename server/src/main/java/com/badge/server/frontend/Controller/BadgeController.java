@@ -5,11 +5,8 @@ import com.badge.server.GlobalParameters;
 import com.badge.server.android.Entity.Pojo.Badge;
 import com.badge.server.android.Entity.Pojo.Movement;
 import com.badge.server.android.Entity.Pojo.Voice;
-import com.badge.server.android.Entity.analysis.ActiveRecord;
 import com.badge.server.android.Entity.analysis.MovementState;
-import com.badge.server.frontend.entity.pojo.DatasetStatFrontEnd;
-import com.badge.server.frontend.entity.pojo.NearMacsFrontEnd;
-import com.badge.server.frontend.entity.pojo.NearPhoneFrontEnd;
+import com.badge.server.frontend.entity.pojo.*;
 import com.badge.server.frontend.service.BadgeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -28,7 +25,6 @@ import java.util.Map;
 public class BadgeController {
     @Autowired
     private BadgeService badgeService;
-
 
     /**
      * find badges by dataset id
@@ -109,11 +105,11 @@ public class BadgeController {
     @GetMapping("/activephone")
     public List<String> getActivePhone(HttpSession httpSession){
         ServletContext servletContext = httpSession.getServletContext();
-        Map<String,Long> onlineBadges = (Map<String, Long>) servletContext.getAttribute("badge");
         List<String> activeBadgeList = new ArrayList<>();
         long currentTime = System.currentTimeMillis();
+        Map<String,Long> onlineBadges = (Map<String, Long>) servletContext.getAttribute("badge");
         for (String badgeid :onlineBadges.keySet()){
-            if (currentTime - onlineBadges.get(badgeid)<= GlobalParameters.timeout){
+            if (currentTime - onlineBadges.get(badgeid)<= GlobalParameters.TIMEOUT){
                 activeBadgeList.add(badgeid);
             }else{
                 onlineBadges.remove(badgeid);
@@ -123,20 +119,31 @@ public class BadgeController {
     }
 
     @GetMapping("/activehistory")
-    public DatasetStatFrontEnd getActiveHistory(@PathParam("dataset_id") String dataset_id,
-                                                @PathParam("dataFrom") String dataFrom, @PathParam("dataTo") String dataTo){
-
-        if (dataFrom==null && dataTo==null){
-            return badgeService.getActiveHistory(dataset_id);
-        }else {
-            if (dataFrom == null){
-                return badgeService.getActiveHistory(dataset_id,null,Long.parseLong(dataTo));
-            }else if(dataTo==null){
-                return badgeService.getActiveHistory(dataset_id,Long.parseLong(dataFrom),null);
-            }else{
-                return badgeService.getActiveHistory(dataset_id,Long.parseLong(dataFrom),Long.parseLong(dataTo));
-            }
-        }
+    public List<DatasetStatBar> getGroupActiveHistory(@PathParam("dataset_id") String dataset_id,
+                                                     @PathParam("dataFrom") String dataFrom, @PathParam("dataTo") String dataTo, @PathParam("minute") String minute){
+        return badgeService.getActiveHistory(dataset_id,Long.parseLong(dataFrom),Long.parseLong(dataTo), Integer.parseInt(minute));
     }
+
+
+    @GetMapping("/speechratio")
+    public List<SpeechRatioBar> getSpeechRatio(@PathParam("dataset_id") String dataset_id,
+                                               @PathParam("dataFrom") String dataFrom, @PathParam("dataTo") String dataTo, @PathParam("minute") String minute){
+//        System.out.println("===");
+        return badgeService.getSpeechRatio(dataset_id,Long.parseLong(dataFrom),Long.parseLong(dataTo), Integer.parseInt(minute));
+    }
+
+    @GetMapping("/badgespeechratio")
+    public List<BadgeSpeechRatio> getSpeechRatio(@PathParam("dataset_id") String dataset_id,
+                                                 @PathParam("dataFrom") String dataFrom, @PathParam("dataTo") String dataTo){
+        return badgeService.getSpeechRatio(dataset_id,Long.parseLong(dataFrom),Long.parseLong(dataTo));
+    }
+
+    @GetMapping("/badgemovementratio")
+    public List<BadgeMovementRatio> getMovementRatio(@PathParam("dataset_id") String dataset_id,
+                                                     @PathParam("dataFrom") String dataFrom, @PathParam("dataTo") String dataTo){
+        return badgeService.getMovementRatio(dataset_id,Long.parseLong(dataFrom),Long.parseLong(dataTo));
+
+    }
+
 
 }

@@ -97,8 +97,8 @@ public class DeviceController {
 
     private boolean validation(HttpSession httpSession, DataCache dataCache){
         Map<String,Long> onlineBadges = (Map<String, Long>) httpSession.getServletContext().getAttribute("badge");
-        if (onlineBadges.containsKey(dataCache.getBadge_id())
-                && System.currentTimeMillis() - onlineBadges.get(dataCache.getBadge_id())<= GlobalParameters.timeout){
+        if (onlineBadges!=null && onlineBadges.containsKey(dataCache.getBadge_id())
+                && System.currentTimeMillis() - onlineBadges.get(dataCache.getBadge_id())<= GlobalParameters.TIMEOUT){
             return true;
         }
         return false;

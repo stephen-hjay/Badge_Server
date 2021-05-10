@@ -3,22 +3,18 @@ package com.badge.server.android.ScheduledRunner;
 
 import com.badge.server.GlobalParameters;
 import com.badge.server.android.DAO.BadgeRepository;
-import com.badge.server.frontend.DAO.DatasetRepository;
 import com.badge.server.frontend.DAO.DatasetStatRepository;
 import com.badge.server.frontend.entity.pojo.DatasetStat;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
-
 import javax.servlet.ServletContext;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
-@Configuration      //1.主要用于标记配置类，兼备Component的效果。
-@EnableScheduling   // 2.开启定时任务
+@Configuration      // component
+@EnableScheduling   // enable scheduling
 public class StaticScheduledTask {
 
     @Autowired
@@ -30,33 +26,36 @@ public class StaticScheduledTask {
     @Autowired
     private ServletContext servletContext;
 
-    //3.添加定时任务
-    //或直接指定时间间隔，例如：5秒
-    @Scheduled(fixedRate=GlobalParameters.persistTime)
+    //3.scheduled task
+    // interval = PERSIST_TIME
+    @Scheduled(fixedRate=GlobalParameters.PERSIST_TIME)
     private void configureTasks() {
-
         if (servletContext != null){
-//            System.out.println("dataset online stat");
-            Map<String,Long> onlineBadges = (Map<String, Long>) servletContext.getAttribute("badge");
-//            System.out.println(onlineBadges);
-            Map<String, Integer> datasetStatMap = new HashMap<>();
-            if (onlineBadges!=null){
-                for (String badgeid : onlineBadges.keySet()) {
-                    String datasetId = badgeRepository.findDatasetByBadgeid(badgeid);
-//                System.out.println(datasetId);
-                    datasetStatMap.put(datasetId, datasetStatMap.getOrDefault(datasetId, 0) + 1);
-                }
-//            System.out.println(datasetStatMap);
-//            List<DatasetStat> datasetStatList = new ArrayList<>();
-                // persistence
-                for (String datasetid : datasetStatMap.keySet()){
-                    DatasetStat datasetStat = new DatasetStat();
-                    datasetStat.setDatasetid(datasetid);
-                    datasetStat.setNum(datasetStatMap.get(datasetid));
-                    datasetStat.setTimestamp(System.currentTimeMillis());
-                    datasetStatRepository.save(datasetStat);
+                Map<String,Long> onlineBadges = (Map<String, Long>) servletContext.getAttribute("badge");
+                Map<String, Integer> datasetStatMap = (Map<String, Integer>) servletContext.getAttribute("datasets");// use database no need to acquire lock
+                // avoid null pointer exception
+                if (onlineBadges!=null && datasetStatMap != null) {
+                    // clear original records
+                    for (String datasetid : datasetStatMap.keySet()) {
+                        datasetStatMap.put(datasetid, 0);
+                    }
+                    // put the stat onto datasetStatMap
+                    for (String badgeid : onlineBadges.keySet()) {
+                        String datasetId = badgeRepository.findDatasetByBadgeid(badgeid);
+                        datasetStatMap.put(datasetId, datasetStatMap.getOrDefault(datasetId, 0) + 1);
+                    }
+                    long currentime = System.currentTimeMillis();
+                    // persistence
+                    for (String datasetid : datasetStatMap.keySet()) {
+                        DatasetStat datasetStat = new DatasetStat();
+                        datasetStat.setDatasetid(datasetid);
+                        datasetStat.setNum(datasetStatMap.get(datasetid));
+                        datasetStat.setTimestamp(currentime);
+                        datasetStatRepository.save(datasetStat);
+                    }
                 }
             }
         }
     }
-}
+
+

@@ -5,10 +5,7 @@ import com.badge.server.android.Entity.Pojo.Movement;
 import com.badge.server.android.Entity.Pojo.Voice;
 import com.badge.server.android.Entity.analysis.ActiveRecord;
 import com.badge.server.android.Entity.analysis.MovementState;
-import com.badge.server.frontend.entity.pojo.DatasetStat;
-import com.badge.server.frontend.entity.pojo.DatasetStatFrontEnd;
-import com.badge.server.frontend.entity.pojo.NearMacsFrontEnd;
-import com.badge.server.frontend.entity.pojo.NearPhoneFrontEnd;
+import com.badge.server.frontend.entity.pojo.*;
 
 import javax.websocket.server.PathParam;
 import java.util.List;
@@ -34,8 +31,14 @@ public interface BadgeService {
 
     List<NearPhoneFrontEnd> getNearPhones(String badge_id, String dataset_id);
 
-    DatasetStatFrontEnd getActiveHistory(String dataset_id, Long dataFrom, Long dataTo);
+    List<DatasetStatBar> getActiveHistory(String dataset_id, Long dataFrom, Long dataTo, int minute);
 
-    DatasetStatFrontEnd getActiveHistory(String dataset_id);
+    DatasetStatFrontEnd getActiveHistory(String dataset_id, int minute);
+
+    List<SpeechRatioBar> getSpeechRatio(String dataset_id, Long dataFrom, Long dataTo, int minute);
+
+    List<BadgeSpeechRatio> getSpeechRatio(String dataset_id, Long dataFrom, Long dataTo);
+
+    List<BadgeMovementRatio> getMovementRatio(String dataset_id, Long dataFrom, Long dataTo);
 
 }
